@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Persistencia\\Persistencia.csproj": {}
+    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\ObligatorioP3\\ObligatorioP3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\ObligatorioP3\\ObligatorioP3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Persistencia\\Persistencia.csproj",
-        "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\ObligatorioP3\\ObligatorioP3.csproj",
+        "projectName": "ObligatorioP3",
+        "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\ObligatorioP3\\ObligatorioP3.csproj",
         "packagesPath": "C:\\Users\\joaquin.suarez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\ObligatorioP3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaquin.suarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,6 +50,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

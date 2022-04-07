@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj",
-      "projectName": "Dominio",
-      "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Bussines\\Bussines.csproj",
+      "projectName": "Bussines",
+      "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Bussines\\Bussines.csproj",
       "packagesPath": "C:\\Users\\joaquin.suarez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\obj\\",
+      "outputPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Bussines\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaquin.suarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
