@@ -9,7 +9,6 @@ namespace Dominio
         public int IdPlantaComprada { get; set; }
         public Planta UnaPlanta { get; set; }
         public int Cantidad { get; set; }
-
         public double PrecioUnitario { get; set; }
         
     }

@@ -11,7 +11,6 @@ namespace Dominio
         public string NombreCientifico { get; set; }
         public string NombreVulgar { get; set; }
         public string Descripcion { get; set; }
-
         public string Ambiente { get; set; }
         public double AlturaMax { get; set; }
         public string Foto { get; set; }
