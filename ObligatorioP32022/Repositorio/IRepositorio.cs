@@ -12,6 +12,5 @@ namespace Repositorio
         void Insert(T obj);
         void Delete(int id);
         void Update(T obj);
-        void Save();
     }
 }

@@ -112,7 +112,6 @@ begin
 		end
 		else
 		begin
-		begin tran
 			insert into Plantas values (@tipoPlanta,@nombreCientifico,@nombresVulgares,@descripcion,@ambiente,@alturaMax,@precioUnitario)
 			if @@error <> 0
 				return -1		

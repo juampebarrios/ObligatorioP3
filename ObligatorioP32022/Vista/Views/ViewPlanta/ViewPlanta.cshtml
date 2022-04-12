@@ -1,0 +1,53 @@
+﻿
+
+@model IEnumerable<DataType.Cliente>
+
+    @{
+    ViewData["Title"] = "Index";
+    }
+
+    <table>
+        <thead>
+            <tr>
+                <td>Nombre</td>
+                <td>Apellido</td>
+                <td>Direccion</td>
+                <td>Ciudad</td>
+                <td>Pais</td>
+                <td>Fecha Nacimiento</td>
+                <td>Activo</td>
+                <td></td>
+            </tr>
+
+        </thead>
+        <tbody>
+
+            @foreach(var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Surname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Adress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BirthDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Active)
+                </td>
+            </tr>
+            }
+        </tbody>
+
+    </table>
