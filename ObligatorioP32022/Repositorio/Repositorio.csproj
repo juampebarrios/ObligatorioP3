@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="obj\Conexion.cs" />
+    <Compile Remove="Debug\**" />
+    <EmbeddedResource Remove="Debug\**" />
+    <None Remove="Debug\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,6 +16,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Dominio\Dominio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\" />
   </ItemGroup>
 
 </Project>

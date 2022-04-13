@@ -11,7 +11,7 @@ namespace Repositorio
     {
         SqlConnection conn = null;
 
-        private string connectionString = "data source=DESKTOP-SOGRNCK; database=ViveroP3 ;Integrated Security = true";
+        private string connectionString = "data source=JUAMPEINTEGRA; database=master ;Integrated Security = true";
         public string ConnectionString { get => connectionString; set => connectionString = value; }
 
         public int ConnectionTimeout => conn.ConnectionTimeout;
