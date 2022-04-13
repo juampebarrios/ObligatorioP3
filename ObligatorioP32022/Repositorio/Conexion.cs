@@ -11,7 +11,9 @@ namespace Repositorio
     {
         SqlConnection conn = null;
 
-        private string connectionString = "Server=tcp:127.0.0.1,1433;Database=master;MultipleActiveResultSets=true;User=sa;Password=bigStrongPwd1997;";
+        //no borrar
+        private string connectionString = "Server=tcp:127.0.0.1,1433;Database=ViveroP3;MultipleActiveResultSets=true;User=sa;Password=bigStrongPwd1997;";
+
         public string ConnectionString { get => connectionString; set => connectionString = value; }
 
         public int ConnectionTimeout => conn.ConnectionTimeout;

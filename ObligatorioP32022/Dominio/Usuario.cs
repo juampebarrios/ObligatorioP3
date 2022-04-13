@@ -9,5 +9,17 @@ namespace Dominio
         public int IdUsuario { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+
+        public Usuario(int id, string email, string password)
+        {
+            this.IdUsuario = id;
+            this.Email = email;
+            this.Password = password;
+        }
+
+        public Usuario()
+        {
+
+        }
     }
 }
