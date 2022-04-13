@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{86D160BD-B2B0-4EF4-AAE8-2EF6D7290587}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repositorio/Conexion.cs">
+    <Files>
+      <File FileName="Repositorio/IRepositorio.cs" Line="1" Column="1" />
+      <File FileName="Repositorio/IRepositorioPlanta.cs" Line="1" Column="1" />
+      <File FileName="Repositorio/RepositorioPlanta.cs" Line="1" Column="1" />
+      <File FileName="Repositorio/Conexion.cs" Line="14" Column="149" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ObligatorioP32022" expanded="True">
+            <Node name="Repositorio" expanded="True">
+              <Node name="Conexion.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Obligatorio PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
