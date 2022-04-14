@@ -23,5 +23,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Login\" />
+    <Folder Include="wwwroot\assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\" />
   </ItemGroup>
 </Project>

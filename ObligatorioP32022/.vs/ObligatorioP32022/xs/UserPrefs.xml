@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{86D160BD-B2B0-4EF4-AAE8-2EF6D7290587}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Repositorio/Conexion.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="Repositorio/Conexion.cs" Line="14" Column="16" />
+      <File FileName="Obligatorio/Controllers/LoginController.cs" Line="19" Column="2" />
+      <File FileName="Obligatorio/Views/Login/Index.cshtml" Line="14" Column="91" />
+      <File FileName="Obligatorio/Views/Shared/_Layout.cshtml" Line="12" Column="76" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,12 +16,9 @@
                 <Node name="Home" expanded="True" />
                 <Node name="Login" expanded="True" />
                 <Node name="Planta" expanded="True" />
-                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
-            <Node name="Repositorio" expanded="True">
-              <Node name="Conexion.cs" selected="True" />
-            </Node>
+            <Node name="Repositorio" expanded="True" />
           </Node>
         </State>
       </Pad>
