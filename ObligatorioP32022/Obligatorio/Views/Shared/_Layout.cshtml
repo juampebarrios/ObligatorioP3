@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3" style="background-color: #2a6614 !important;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow" style="background-color: #2a6614 !important;">
             <div class="container">
                 <img src="~/assets/logo.svg" width="40" height="40" class="d-inline-block align-top mr-2" alt="">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color: #e5ca5a !important">Vivero</a>
@@ -22,15 +22,20 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
                         </li>
-                        @*<li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>*@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Plantas
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Planta" asp-action="Index">Listado de Plantas</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Planta" asp-action="ListaPlantas">Listado de Plantas</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Tipos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Tipo" asp-action="AgregarTipo">Agregar Tipo</a>
                             </div>
                         </li>
                     </ul>

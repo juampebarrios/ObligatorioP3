@@ -20,10 +20,12 @@
 
   <ItemGroup>
     <None Remove="Views\Login\" />
+    <None Remove="Views\Tipo\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Login\" />
     <Folder Include="wwwroot\assets\" />
+    <Folder Include="Views\Tipo\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\" />
