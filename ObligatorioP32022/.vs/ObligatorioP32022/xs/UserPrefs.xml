@@ -1,19 +1,27 @@
 ﻿<Properties StartupConfiguration="{86D160BD-B2B0-4EF4-AAE8-2EF6D7290587}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio/Views/Tipo/AgregarTipo.cshtml">
+    <Files>
+      <File FileName="Obligatorio/Views/Shared/_Layout.cshtml" Line="47" Column="31" />
+      <File FileName="Obligatorio/Views/Tipo/AgregarTipo.cshtml" Line="6" Column="11" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ObligatorioP32022" expanded="True">
             <Node name="Dominio" expanded="True" />
             <Node name="Obligatorio" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="PlantaController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
                 <Node name="Login" expanded="True" />
                 <Node name="Planta" expanded="True" />
                 <Node name="Shared" expanded="True" />
-                <Node name="Tipo" expanded="True" />
+                <Node name="Tipo" expanded="True">
+                  <Node name="AgregarTipo.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" />
               </Node>
             </Node>
           </Node>

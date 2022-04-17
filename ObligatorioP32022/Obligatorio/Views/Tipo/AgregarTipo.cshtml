@@ -3,7 +3,6 @@
 }
 
 
-<div class="container">
     <div class="row justify-content-center">
         <div class="col col-sm-8">
             <h1>@ViewData["Title"]</h1>
@@ -16,7 +15,7 @@
                 <div class="form-group">
                     <label for="txtTypeDesc">Decripción:</label>
                     <textarea class="form-control" id="txtTypeDesc" placeholder="Añada una descripción..." style="resize: none; height: 250px;"></textarea>
-                    <span class="pull-right label label-default" id="characterCounter" style=" background-color: grey; margin-top: -20px; margin-right: 5px;"></span>
+                    <span class="pull-right label label-default" id="characterCounter"></span>
                 </div>
                 <div class="form-group">
                     <button type="submit" id="btnSaveType" class="btn btn-primary float-right mt-2">Agregar</button>
@@ -24,14 +23,13 @@
             </form>
         </div>
     </div>
-</div>
 
 <script>
     let text_max = 200; //SE TIENE QUE PODER CAMBIAR
     $('#characterCounter').html('0 / ' + text_max);
 
     $('#txtTypeDesc').keyup(function () {
-        var text_length = $('#text').val().length;
+        var text_length = $('#txtTypeDesc').val().length;
         var text_remaining = text_max - text_length;
 
         $('#characterCounter').html(text_length + ' / ' + text_max);
