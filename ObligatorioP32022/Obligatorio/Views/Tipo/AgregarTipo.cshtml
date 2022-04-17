@@ -10,7 +10,7 @@
             <form class="card p-3">
                 <div class="form-group">
                     <label for="txtTypeName">Nombre:</label>
-                    <input type="email" class="form-control" id="txtTypeName" placeholder="Nombre">
+                    <input type="text" class="form-control" id="txtTypeName" placeholder="Nombre">
                 </div>
                 <div class="form-group">
                     <label for="txtTypeDesc">Decripción:</label>
@@ -33,5 +33,7 @@
         var text_remaining = text_max - text_length;
 
         $('#characterCounter').html(text_length + ' / ' + text_max);
+        if (text_length > text_max) $('#characterCounter').css("color", "red");
+        else $('#characterCounter').css("color", "black");
     });
 </script>

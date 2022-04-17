@@ -473,3 +473,4 @@ C:/Users/jpbar/OneDrive/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligat
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Login/Index.cshtml.g.cs
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Tipo/AgregarTipo.cshtml.g.cs
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/ListaPlantas.cshtml.g.cs
+/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/AgregarPlanta.cshtml.g.cs

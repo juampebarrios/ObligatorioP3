@@ -1,0 +1,133 @@
+﻿@{
+    ViewData["Title"] = "Agregar Planta";
+}
+
+
+<div class="row justify-content-center">
+    <div class="col col-sm-8">
+        <h1>@ViewData["Title"]</h1>
+        <p>Complete todos los campos con la infromación de la planta a agregar.</p>
+        <form class="card p-3">
+            <div class="form-group">
+                <label for="txtPlantType">Tipo</label>
+                <select class="form-control" id="selPlantType">
+                    @*SE TIENEN QUE CARGAR TIPOS DE PLANTA DESDE LA BASE*@
+                    <option value="">Seleccione...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="txtPlantNameC">Nombre científico:</label>
+                <input type="text" class="form-control" id="txtPlantNameC" placeholder="Nombre científico">
+            </div>
+            <div class="form-group">
+                <label for="txtPlantNameV">Nombres vulgares:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="txtPlantNameV" placeholder="Nombres vulgares">
+                    <button class="btn btn-outline-primary" type="button" id="btnAddName">Agregar nombre</button>
+
+                </div>
+                <ul class="list-group col col-sm-6 mt-4" id="listNames"></ul>
+            </div>
+            <div class="form-group">
+                <label for="txtPlantAmb">Ambiente:</label>
+                <input type="text" class="form-control" id="txtPlantAmb" placeholder="Ambiente">
+            </div>
+            <div class="form-group">
+                <label for="txtPlantHeight">Altura máxima (en metros):</label>
+                <input type="number" class="form-control" id="txtPlantHeight" placeholder="Altura máxima" min="0">
+            </div>
+            <div class="form-group">
+                <label for="txtPlantPrice">Precio unitario (en pesos):</label>
+                <input type="number" class="form-control" id="txtPlantPrice" placeholder="Precio unitario" min="0">
+            </div>
+            <div class="form-group">
+                    <label for="txtPlantImg">Imagen:</label>
+                    <input type="file" class="form-control" id="txtPlantImg" multiple>
+            </div>
+            <div class="form-group">
+                <label for="txtPlantDesc">Decripción:</label>
+                <textarea class="form-control" id="txtPlantDesc" placeholder="Añada una descripción..." onkeydown="countCharacters()" style="resize: none; height: 250px;"></textarea>
+                <span class="pull-right label label-default" id="characterCounter"></span>
+            </div>
+            <div class="form-group">
+                <label for="txtPlantInfo">Ficha:</label>
+                <a class="" href="#" id="btnPlantInfo">Añadir ficha</a>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="form-control btnSavePlant" class="btn btn-primary float-right mt-2">Agregar planta</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@*<div class="modal fade" id="fileModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>*@
+
+<script>
+    function countCharacters() {
+        let text_max = 200; //SE TIENE QUE PODER CAMBIAR
+        $('#characterCounter').html('0 / ' + text_max);
+
+        $('#txtPlantDesc').keyup(function () {
+            let text_length = $('#txtPlantDesc').val().length;
+            let text_remaining = text_max - text_length;
+
+            $('#characterCounter').html(text_length + ' / ' + text_max);
+            if (text_length > text_max) $('#characterCounter').css("color", "red");
+            else $('#characterCounter').css("color", "black");
+        });
+    }
+
+    let arrayNamesV = [];
+    $('#btnAddName').click(function () {
+        $('#listNames').empty();
+        if (!arrayNamesV.includes($('#txtPlantNameV').val().trim()) && $('#txtPlantNameV').val().trim() !== '') arrayNamesV.push($('#txtPlantNameV').val().trim());
+        else alert("El nombre no debe ser vacío o repetido.");
+        $('#txtPlantNameV').val('');
+        fullList()
+    });
+
+    function fullList() {
+        arrayNamesV.map(function (i) {
+            $('#listNames').append(`<li class='list-group-item' id='li_${i}'>
+                                        <span>${i}</span>
+                                        <button type="button" id='deleteItem_${i}'class="btn btn-outline-danger btn-sm float-right">Eliminar</button>
+                                    </li>`
+            );
+        })
+    }
+
+    $('body').on('click', "button[id^='deleteItem_']", function () {
+        let id = this.id.substr(11);
+        let pos = arrayNamesV.indexOf(id);
+        arrayNamesV.splice(pos, 1);
+        $(listNames).empty();
+        fullList();
+    })
+</script>

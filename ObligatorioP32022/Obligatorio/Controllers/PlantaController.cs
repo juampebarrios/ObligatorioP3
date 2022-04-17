@@ -16,9 +16,16 @@ namespace Obligatorio.Controllers
         // GET: ClientController
         IRepositorio<Planta> repositorio = new RepositorioPlanta(new Repositorio.Conexion());
 
+        //VISTA LISTA
         public ActionResult ListaPlantas()
         {
             return View(repositorio.Get());
+        }
+
+        //VISTA AGREGAR PLANTA
+        public ActionResult AgregarPlanta()
+        {
+            return View();
         }
 
         // GET: ClientController/Details/5
