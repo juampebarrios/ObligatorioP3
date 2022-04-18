@@ -115,16 +115,16 @@
 
     function fullList() {
         arrayNamesV.map(function (i) {
-            $('#listNames').append(`<li class='list-group-item' id='li_${i}'>
-                                        <span>${i}</span>
-                                        <button type="button" id='deleteItem_${i}'class="btn btn-outline-danger btn-sm float-right">Eliminar</button>
+            $('#listNames').append(`<li class='list-group-item d-block' id='li_${i}'>
+                                        <span class='mt-1 float-left'>${i}</span>
+                                        <button type="button" id='btnDeleteItem_${i}'class="btn btn-outline-danger btn-sm float-right">Eliminar</button>
                                     </li>`
             );
         })
     }
 
-    $('body').on('click', "button[id^='deleteItem_']", function () {
-        let id = this.id.substr(11);
+    $('body').on('click', "button[id^='btnDeleteItem_']", function () {
+        let id = this.id.substr(14);
         let pos = arrayNamesV.indexOf(id);
         arrayNamesV.splice(pos, 1);
         $(listNames).empty();
