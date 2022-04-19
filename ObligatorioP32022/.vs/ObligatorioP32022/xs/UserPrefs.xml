@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Obligatorio/Views/Shared/_Layout.cshtml" Line="16" Column="21" />
       <File FileName="Obligatorio/Controllers/PlantaController.cs" />
-      <File FileName="Obligatorio/Views/Planta/AgregarPlanta.cshtml" Line="125" Column="1" />
+      <File FileName="Obligatorio/Views/Planta/AgregarPlanta.cshtml" Line="99" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
