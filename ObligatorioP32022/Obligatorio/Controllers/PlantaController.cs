@@ -28,6 +28,12 @@ namespace Obligatorio.Controllers
             return View();
         }
 
+        //VISTA AGREGAR FICHA
+        public ActionResult AgregarFicha()
+        {
+            return View();
+        }
+
         // GET: ClientController/Details/5
         public ActionResult Details(int id)
         {
