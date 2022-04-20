@@ -12,7 +12,8 @@ go
 CREATE DATABASE ViveroP3
 
 go
-
+use ViveroP3
+go
 Create Table Compra
 (
 	id int identity(1,1),
@@ -87,7 +88,7 @@ create table FichaCuidado
 	frecuenciaRiego varchar(100),
 	tipoIluminacion varchar(100),
 	temperatura varchar(100),
-	constraint pk_FotoPlanta primary key(id),
+	constraint pk_FotoPlanta1 primary key(id),
 	constraint fk_Importa3 foreign key(idPlanta) references Plantas(id)
 )
 go
