@@ -29,7 +29,11 @@ namespace Obligatorio.Controllers
         }
 
         //VISTA AGREGAR FICHA
-        public ActionResult AgregarFicha()
+        public ActionResult BuscarPlanta(int id)
+        {
+            return View(repositorio.BuscarPlanta(id));
+        }
+        public ActionResult AgregarFicha(int id)
         {
             return View();
         }

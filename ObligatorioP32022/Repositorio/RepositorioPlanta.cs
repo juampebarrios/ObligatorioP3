@@ -259,5 +259,60 @@ namespace Repositorio
                 }
             }
         }
+
+        public Planta BuscarPlanta(int id, string texto)
+        {
+            Planta miPlanta = null;
+            IDbCommand command = _con.CreateCommand();
+
+            IDataReader reader;
+            switch (id)
+            {
+                case 0:
+                    command.CommandText = "select * from dbo.Plantas where nombreCientifico like %" + texto + "%";
+                    break;
+                case 1:
+                    command.CommandText = "select * from dbo.Plantas where nombresVulgares like %" + texto + "%";
+                    break;
+                case 2:
+                    break;
+                default:
+                    throw new Exception("cagaste fuerte");
+
+               
+            }
+            try
+            {
+                _con.Open();
+
+                reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    miPlanta = new Planta();
+                    miPlanta.NombreCientifico = (string)reader["nombreCientifico"];
+                    miPlanta.NombreVulgar = (string)reader["nombresVulgares "];
+                    miPlanta.Descripcion = (string)reader["descripcion "];
+                    miPlanta.Ambiente = (string)reader["ambiente "];
+                    miPlanta.AlturaMax = (double)reader["alturaMax "];
+                    miPlanta.Precio = (double)reader["precioUnitario "];
+                   // miPlanta.Foto = (string)reader["foto "];
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(string.Format("Error: {0}", ex.Message));
+            }
+            finally
+            {
+                if (_con != null)
+                {
+                    _con.Close();
+                    _con.Dispose();
+                }
+            }
+            return miPlanta;
+
+        }
     }
 }
