@@ -163,7 +163,7 @@ namespace Repositorio
 
             SqlParameter _nombrec = new SqlParameter("@nombreCientifico ", obj.NombreCientifico);
             SqlParameter _tipo = new SqlParameter("@tipoPlanta ", obj.MiTipoPlanta);
-            SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.MiFichaCuidado);
+            //SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.MiFichaCuidado);
             SqlParameter _nombrev = new SqlParameter("@nombresVulgares ", obj.NombreVulgar);
             SqlParameter _desc = new SqlParameter("@descripcion ", obj.Descripcion);
             SqlParameter _ambiente = new SqlParameter("@ambiente ", obj.Ambiente);
@@ -177,7 +177,7 @@ namespace Repositorio
 
             oComando.Parameters.Add(_nombrec);
             oComando.Parameters.Add(_tipo);
-            oComando.Parameters.Add(_fc);
+            //oComando.Parameters.Add(_fc);
             oComando.Parameters.Add(_nombrev);
             oComando.Parameters.Add(_desc);
             oComando.Parameters.Add(_ambiente);
@@ -215,7 +215,7 @@ namespace Repositorio
 
             SqlParameter _nombrec = new SqlParameter("@nombreCientifico ", obj.NombreCientifico);
             SqlParameter _tipo = new SqlParameter("@tipoPlanta ", obj.MiTipoPlanta);
-            SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.MiFichaCuidado);
+            //SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.MiFichaCuidado);
             SqlParameter _nombrev = new SqlParameter("@nombresVulgares ", obj.NombreVulgar);
             SqlParameter _desc = new SqlParameter("@descripcion ", obj.Descripcion);
             SqlParameter _ambiente = new SqlParameter("@ambiente ", obj.Ambiente);
@@ -229,7 +229,7 @@ namespace Repositorio
 
             oComando.Parameters.Add(_nombrec);
             oComando.Parameters.Add(_tipo);
-            oComando.Parameters.Add(_fc);
+            //oComando.Parameters.Add(_fc);
             oComando.Parameters.Add(_nombrev);
             oComando.Parameters.Add(_desc);
             oComando.Parameters.Add(_ambiente);

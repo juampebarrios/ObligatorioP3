@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{86D160BD-B2B0-4EF4-AAE8-2EF6D7290587}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio/Views/Ficha/AgregarFicha.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio/Views/Planta/AgregarFicha.cshtml">
     <Files>
-      <File FileName="Obligatorio/Views/Shared/_Layout.cshtml" Line="16" Column="21" />
-      <File FileName="Obligatorio/Controllers/PlantaController.cs" />
-      <File FileName="Obligatorio/Views/Planta/AgregarPlanta.cshtml" Line="62" Column="28" />
-      <File FileName="Obligatorio/Views/Ficha/AgregarFicha.cshtml" Line="14" Column="1" />
-      <File FileName="Obligatorio/Views/Tipo/AgregarTipo.cshtml" Line="1" Column="1" />
+      <File FileName="Obligatorio/Views/Ficha/AgregarFicha.cshtml" Line="26" Column="23" />
+      <File FileName="Dominio/FichaCuidado.cs" Line="13" Column="45" />
+      <File FileName="Repositorio/RepositorioPlanta.cs" Line="180" Column="44" />
+      <File FileName="Dominio/Planta.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,13 +14,15 @@
             <Node name="Obligatorio" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Ficha" expanded="True">
+                <Node name="Planta" expanded="True">
                   <Node name="AgregarFicha.cshtml" selected="True" />
                 </Node>
+                <Node name="Shared" expanded="True" />
                 <Node name="Tipo" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
+            <Node name="Repositorio" expanded="True" />
           </Node>
         </State>
       </Pad>

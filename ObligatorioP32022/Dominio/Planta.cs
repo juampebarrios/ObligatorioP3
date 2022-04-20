@@ -15,7 +15,6 @@ namespace Dominio
         public double AlturaMax { get; set; }
         public string Foto { get; set; }
         public double Precio { get; set; }
-        public FichaCuidado MiFichaCuidado { get; set; }
 
         public Planta(int id, string nom, string nomv, string desc, string amb, double alt, double precio)
         {
