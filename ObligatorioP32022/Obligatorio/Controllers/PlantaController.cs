@@ -23,7 +23,7 @@ namespace Obligatorio.Controllers
         }
 
         [HttpGet]
-        public ActionResult ListaPlantasBuscar(int id, string texto)
+        public ActionResult ListaPlantasBusqueda(int id, string texto)
         {
             return View(repositorio.BuscarPlanta(id,texto));
         }
