@@ -74,20 +74,20 @@
 
     async function callSearch(valueSel, valueText) {
         await $.ajax({
-            url: '@Url.Action("ListaPlantasBusqueda","PlantaController")',
-            @*url: 'PlantaController/ListaPlantasBusqueda',*@
-            type: 'GET',
-            contentType: 'application/json;',
+            type: "GET",
             data: JSON.stringify({ id: valueSel, texto: valueText }),
-            success: function (valid) {
-                if (valid) {
-                    console.log('valido')
+            url: "PlantaController/ListaPlantasBusqueda",
+            method: "GET",
+            dataType: 'json',
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                if (response != null && response.success) {
+                    alert(response.responseText);
                 } else {
-                    console.log('invalido')
+                    // DoSomethingElse()
+                    alert(response.responseText);
                 }
-            },
-            error: function (e) {
-                console.log(e);
             }
         });
     }

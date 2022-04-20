@@ -1,16 +1,21 @@
 ﻿<Properties StartupConfiguration="{86D160BD-B2B0-4EF4-AAE8-2EF6D7290587}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio/Views/Planta/ListaPlantas.cshtml">
+    <Files>
+      <File FileName="Repositorio/IRepositorioPlanta.cs" Line="11" Column="6" />
+      <File FileName="Obligatorio/Views/Planta/ListaPlantas.cshtml" Line="79" Column="47" />
+      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="31" Column="9" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ObligatorioP32022" expanded="True">
             <Node name="Dominio" expanded="True" />
             <Node name="Obligatorio" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="PlantaController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Planta" expanded="True" />
+                <Node name="Planta" expanded="True">
+                  <Node name="ListaPlantas.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
                 <Node name="Tipo" expanded="True" />
               </Node>

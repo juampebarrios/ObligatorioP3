@@ -25,14 +25,17 @@ namespace Obligatorio.Controllers
         [HttpGet]
         public ActionResult ListaPlantasBusqueda(int id, string texto)
         {
-            return View(repositorio.BuscarPlanta(id,texto));
+            //return View(repositorio.BuscarPlanta(id,texto));
+            return Json(new {success = true, responseText = "Your message successfuly sent!" });
         }
+        
 
         //VISTA AGREGAR PLANTA
         public ActionResult AgregarPlanta()
         {
             return View();
         }
+
         public ActionResult AgregarFicha(int id)
         {
             return View();
