@@ -333,6 +333,12 @@ go
 
 INSERT INTO Plantas VALUES('PLANTA', 'Plantita', 'Plantota', 'La seniora descripcion', 'frio',12,123)
 
+INSERT INTO Plantas VALUES('PLANTA', 'Plantita', 'Plantota', 'La seniora descripcion', 'frio',12,123)
+
+INSERT INTO Plantas VALUES('PLANTA', 'Plantita', 'Plantota', 'La seniora descripcion', 'frio',12,123)
+
+INSERT INTO Plantas VALUES('PLANTA1', 'Plantita1', 'Plantota1', 'La seniora descripcion', 'frio',12,123)
+
 /*
 	tipoPlanta varchar(100) not null,
 	nombreCientifico varchar(100) not null,

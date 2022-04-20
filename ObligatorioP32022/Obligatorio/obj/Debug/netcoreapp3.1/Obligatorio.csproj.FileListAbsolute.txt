@@ -323,8 +323,6 @@ C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Oblig
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorAssemblyInfo.cache
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorAssemblyInfo.cs
-C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.dll
-C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.pdb
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Obligatorio.exe
@@ -454,6 +452,7 @@ C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Oblig
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Repositorio.dll
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Dominio.pdb
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Repositorio.pdb
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.csproj.AssemblyReference.cache
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\staticwebassets\Obligatorio.StaticWebAssets.Manifest.cache
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\staticwebassets\Obligatorio.StaticWebAssets.xml
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\scopedcss\bundle\Obligatorio.styles.css
@@ -475,5 +474,6 @@ C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Oblig
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorTargetAssemblyInfo.cs
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.Views.pdb
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.csproj.CopyComplete
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.dll
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.pdb
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.genruntimeconfig.cache
-C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.csproj.AssemblyReference.cache

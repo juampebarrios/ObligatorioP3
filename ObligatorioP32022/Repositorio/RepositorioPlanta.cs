@@ -269,17 +269,19 @@ namespace Repositorio
             switch (id)
             {
                 case 0:
-                    command.CommandText = "select * from dbo.Plantas where nombreCientifico like %" + texto + "%";
+                    command.CommandText = "select * from dbo.Plantas where nombreCientifico like " + texto + "";
                     break;
                 case 1:
-                    command.CommandText = "select * from dbo.Plantas where nombresVulgares like %" + texto + "%";
+                    command.CommandText = "select * from dbo.Plantas where nombresVulgares like " + texto + "";
                     break;
                 case 2:
                     break;
                 default:
-                    throw new Exception("cagaste fuerte");
+                    command.CommandText = "select * from dbo.Plantas";
+                    break;
 
-               
+
+
             }
             try
             {

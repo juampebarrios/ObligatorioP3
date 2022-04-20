@@ -22,16 +22,16 @@ namespace Obligatorio.Controllers
             return View(repositorio.Get());
         }
 
+        [HttpGet]
+        public ActionResult ListaPlantasBuscar(int id, string texto)
+        {
+            return View(repositorio.BuscarPlanta(id,texto));
+        }
+
         //VISTA AGREGAR PLANTA
         public ActionResult AgregarPlanta()
         {
             return View();
-        }
-
-        //VISTA AGREGAR FICHA
-        public ActionResult BuscarPlanta(int id)
-        {
-            return View(repositorio.BuscarPlanta(id));
         }
         public ActionResult AgregarFicha(int id)
         {

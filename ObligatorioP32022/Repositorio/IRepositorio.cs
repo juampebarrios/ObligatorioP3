@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dominio;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -12,5 +13,6 @@ namespace Repositorio
         void Insert(T obj);
         void Delete(int id);
         void Update(T obj);
+        Planta BuscarPlanta(int id, string texto);
     }
 }
