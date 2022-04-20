@@ -5,7 +5,7 @@
       <File FileName="Dominio/FichaCuidado.cs" Line="13" Column="45" />
       <File FileName="Repositorio/RepositorioPlanta.cs" Line="180" Column="44" />
       <File FileName="Dominio/Planta.cs" Line="1" Column="1" />
-      <File FileName="Repositorio/Conexion.cs" Line="37" Column="1" />
+      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="46" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
