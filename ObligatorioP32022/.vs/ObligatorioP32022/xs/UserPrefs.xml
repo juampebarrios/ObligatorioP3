@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{86D160BD-B2B0-4EF4-AAE8-2EF6D7290587}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Repositorio/Conexion.cs">
     <Files>
-      <File FileName="Obligatorio/Views/Ficha/AgregarFicha.cshtml" Line="26" Column="23" />
       <File FileName="Dominio/FichaCuidado.cs" Line="13" Column="45" />
-      <File FileName="Repositorio/RepositorioPlanta.cs" Line="180" Column="44" />
-      <File FileName="Dominio/Planta.cs" Line="1" Column="1" />
-      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="46" Column="20" />
+      <File FileName="Repositorio/RepositorioPlanta.cs" />
+      <File FileName="Dominio/Planta.cs" />
+      <File FileName="Obligatorio/Controllers/PlantaController.cs" />
+      <File FileName="Obligatorio/Views/Planta/ListaPlantas.cshtml" Line="13" Column="21" />
+      <File FileName="Repositorio/Conexion.cs" Line="18" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
