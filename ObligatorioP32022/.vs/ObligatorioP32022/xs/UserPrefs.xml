@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio/Views/Planta/ListaPlantas.cshtml">
     <Files>
       <File FileName="Repositorio/IRepositorioPlanta.cs" Line="11" Column="6" />
-      <File FileName="Obligatorio/Views/Planta/ListaPlantas.cshtml" Line="79" Column="47" />
-      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="31" Column="9" />
+      <File FileName="Obligatorio/Views/Planta/ListaPlantas.cshtml" Line="39" Column="40" />
+      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="28" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,7 +31,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Obligatorio PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/Controllers/PlantaController.cs" relfile="Obligatorio/Controllers/PlantaController.cs" line="28" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

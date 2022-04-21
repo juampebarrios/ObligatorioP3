@@ -19,14 +19,13 @@ namespace Obligatorio.Controllers
         //VISTA LISTA
         public ActionResult ListaPlantas()
         {
-            return View(repositorio.Get());
+            return View();
         }
 
         [HttpGet]
         public ActionResult ListaPlantasBusqueda(int id, string texto)
         {
-            //return View(repositorio.BuscarPlanta(id,texto));
-            return Json(new {success = true, responseText = "Your message successfuly sent!" });
+            return View(repositorio.Get());
         }
         
 

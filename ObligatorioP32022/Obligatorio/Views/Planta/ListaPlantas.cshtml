@@ -8,7 +8,7 @@
         <div class="col col-sm-8 col-lg-10">
             <h1>@ViewData["Title"]</h1>
 
-            <form action="~/Planta/ListaPlantas" method="get">
+            <form method="get">
                 <div class="form-group row justify-content-center mt-3">
                     <select name="id" class="form-control col col-sm-3" id="selSearchPlant">
                         <option value="">Seleccione...</option>
@@ -18,7 +18,7 @@
                     <div class="input-group mb-2 col col-sm-6">
                         <input type="text" class="form-control" name="texto" id='txtSearchPlant' placeholder="Ingrese búsqueda...">
                         <div class="input-group-append">
-                            <button class="btn btn-primary" id="btnSearchPlant" type="button">Buscar</button>
+                            <button class="btn btn-primary" id="btnSearchPlant" type="button" formaction="@Url.Action("ListaPlantasBusqueda", "PlantaController")")">Buscar</button>
                         </div>
                     </div>
                 </div>
@@ -36,35 +36,38 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var item in Model)
+                    @if (Model != null)
                     {
-                        <tr>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.NombreCientifico)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.NombreVulgar)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Descripcion)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Ambiente)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.AlturaMax)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Precio)
-                            </td>
-                        </tr>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.NombreCientifico)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.NombreVulgar)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Descripcion)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Ambiente)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.AlturaMax)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Precio)
+                                </td>
+                            </tr>
+                        }
                     }
                 </tbody>
             </table>
         </div>
     </div>
 
-    <script>
+    @*<script>
     $('#btnSearchPlant').click(function () {
         let valueSel = $('#selSearchPlant').val();
         let valueText = $('#txtSearchPlant').val();
@@ -91,4 +94,4 @@
             }
         });
     }
-    </script>
+    </script>*@
