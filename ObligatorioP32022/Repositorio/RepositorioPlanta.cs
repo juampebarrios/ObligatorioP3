@@ -249,10 +249,13 @@ namespace Repositorio
             switch (id)
             {
                 case 0:
-                    command.CommandText = "select * from dbo.Plantas where nombreCientifico like " + texto;
+                    command.CommandText = @"select * from Plantas where nombreCientifico like @nombreCientifico";
+                  
+                    command.Parameters.Add(new SqlParameter("@nombreCientifico",texto));
                     break;
                 case 1:
-                    command.CommandText = "BuscarPlantaNV " + texto ;
+                    command.CommandText = @"select * from Plantas where nombresVulgares like @nombresVulgares";
+                    command.Parameters.Add(new SqlParameter("@nombresVulgares", texto));
                     break;
                 case 2:
                     break;
@@ -269,6 +272,7 @@ namespace Repositorio
 
 
                 using IDataReader reader = command.ExecuteReader();
+
                 while (reader.Read())
                 {
                     Planta miPlanta = new Planta();

@@ -19,7 +19,7 @@ namespace Obligatorio.Controllers
         //VISTA LISTA
         public ActionResult ListaPlantas()
         {
-            return View();
+            return View(repositorio.Get());
         }
         
         [HttpPost]

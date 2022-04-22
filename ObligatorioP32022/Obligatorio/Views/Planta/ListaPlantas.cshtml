@@ -23,7 +23,45 @@
                     </div>
                 </div>
             </form>
+            <table class="table table-striped table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Nombre Científico</th>
+                        <th>Nombre Vulgar</th>
+                        <th>Descripción</th>
+                        <th>Ambiente</th>
+                        <th>Altura Máx</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
 
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NombreCientifico)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NombreVulgar)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Descripcion)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Ambiente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AlturaMax)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Precio)
+                            </td>
+                        </tr>
+
+                    }
+                </tbody>
+                </table>
         </div>
     </div>
 

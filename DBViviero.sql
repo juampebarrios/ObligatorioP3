@@ -322,6 +322,14 @@ begin
 end
 go
 
+create proc BuscarPlantaNV
+	@id varchar(100)
+as
+begin
+	select * from Plantas where nombresVulgares = @id
+end
+go
+
 create proc spListarPlantas
 as
 begin
@@ -351,3 +359,9 @@ INSERT INTO Plantas VALUES('PLANTA1', 'Plantita1', 'Plantota1', 'La seniora desc
 */
 select * from dbo.Plantas	
 exec spListarPlantas
+
+select * from Plantas where nombresVulgares = 'Plantota1'	
+
+select * from Plantas where nombreCientifico = 'plantita'
+
+exec BuscarPlantaNV 'plantita'
