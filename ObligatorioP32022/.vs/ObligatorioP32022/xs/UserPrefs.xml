@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{86D160BD-B2B0-4EF4-AAE8-2EF6D7290587}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio/Views/Planta/ListaPlantas.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repositorio/IRepositorioPlanta.cs">
     <Files>
-      <File FileName="Repositorio/IRepositorioPlanta.cs" Line="11" Column="6" />
-      <File FileName="Obligatorio/Views/Planta/ListaPlantas.cshtml" Line="39" Column="40" />
-      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="28" Column="44" />
+      <File FileName="Repositorio/IRepositorioPlanta.cs" Line="12" Column="1" />
+      <File FileName="Obligatorio/Views/Planta/AgregarPlanta.cshtml" Line="114" Column="38" />
+      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="40" Column="38" NotebookId="1" />
+      <File FileName="Repositorio/RepositorioPlanta.cs" Line="69" Column="42" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,17 +14,20 @@
             <Node name="Obligatorio" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Planta" expanded="True">
-                  <Node name="ListaPlantas.cshtml" selected="True" />
-                </Node>
+                <Node name="Planta" expanded="True" />
                 <Node name="Shared" expanded="True" />
                 <Node name="Tipo" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
-            <Node name="Repositorio" expanded="True" />
+            <Node name="Repositorio" expanded="True">
+              <Node name="IRepositorioPlanta.cs" selected="True" />
+            </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -31,9 +35,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Obligatorio PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/Controllers/PlantaController.cs" relfile="Obligatorio/Controllers/PlantaController.cs" line="28" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

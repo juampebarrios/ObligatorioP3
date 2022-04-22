@@ -27,12 +27,18 @@ namespace Obligatorio.Controllers
         {
             return View(repositorio.BuscarPlanta(id,texto));
         }
-        
 
         //VISTA AGREGAR PLANTA
         public ActionResult AgregarPlanta()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult PlantaAgregada(string vulgares)
+        {
+            //return View(repositorio.Get());
+            //return View();
         }
 
         public ActionResult AgregarFicha(int id)

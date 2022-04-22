@@ -50,7 +50,7 @@
                 <span class="pull-right label label-default" id="characterCounter"></span>
             </div>
             <div class="form-group">
-                <button type="submit" id="form-control btnSavePlant" class="btn btn-primary float-right mt-2">Agregar planta</button>
+                <button type="button" id="btnSavePlant" class="btn btn-primary float-right mt-2">Agregar planta</button>
             </div>
         </form>
     </div>
@@ -88,7 +88,7 @@
                                         <button type="button" id='btnDeleteItem_${i}'class="btn btn-outline-danger btn-sm float-right">Eliminar</button>
                                     </li>`
             );
-        })
+        });
     }
 
     $('body').on('click', "button[id^='btnDeleteItem_']", function () {
@@ -97,5 +97,26 @@
         arrayNamesV.splice(pos, 1);
         $(listNames).empty();
         fullList();
+    });
+
+    $('#btnSavePlant').click(function () {
+        callController();
+    });
+
+    async function callController() {
+        console.log('callController');
+        let vulgarNames = arrayNamesV.join();
+        await $.ajax({
+            type: "POST",
+            url: '/Planta/PlantaAgregada',
+            dataType: "json",
+            data: { "vulgares": vulgarNames },
+            success: function (res) {
+                console.log(res);
+            },
+            error: function (req, status, error) {
+                console.log(error);
+            }
+        });
     }
 </script>
