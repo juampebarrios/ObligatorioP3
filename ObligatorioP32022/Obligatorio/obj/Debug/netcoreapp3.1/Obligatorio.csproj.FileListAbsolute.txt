@@ -800,3 +800,4 @@ C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\Ob
 C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.dll
 C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.pdb
 C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.genruntimeconfig.cache
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Planta\BuscarPlanta.cshtml.g.cs

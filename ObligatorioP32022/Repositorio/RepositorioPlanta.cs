@@ -257,6 +257,20 @@ namespace Repositorio
                     command.Parameters.Add(new SqlParameter("@nombresVulgares", texto));
                     break;
                 case 2:
+                    command.CommandText = @"select * from Plantas where tipoPlanta like @tipoPlanta";
+                    command.Parameters.Add(new SqlParameter("@tipoPlanta", texto));
+                    break;
+                case 3:
+                    command.CommandText = @"select * from Plantas where ambiente like @ambiente";
+                    command.Parameters.Add(new SqlParameter("@ambiente", texto));
+                    break;
+                case 4:
+                    command.CommandText = @"select * from Plantas where alturaMax < @alturaMax";
+                    command.Parameters.Add(new SqlParameter("@alturaMax", texto));
+                    break;
+                case 5:
+                    command.CommandText = @"select * from Plantas where alturaMax > @alturaMax";
+                    command.Parameters.Add(new SqlParameter("@alturaMax", texto));
                     break;
                 default:
                     command.CommandText = "select * from dbo.Plantas";

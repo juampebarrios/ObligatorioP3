@@ -45,3 +45,4 @@ C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\Ob
 C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
