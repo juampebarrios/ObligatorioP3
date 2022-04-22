@@ -59,7 +59,7 @@ namespace Repositorio
         {
             ICollection<Planta> result = new List<Planta>();
             IDbCommand command = _con.CreateCommand();
-            command.CommandText = "exec spBuscarPlantas";
+            command.CommandText = "select * from plantas";
             //ommand.CommandType = CommandType.StoredProcedure;
             try
             {
@@ -250,7 +250,6 @@ namespace Repositorio
             {
                 case 0:
                     command.CommandText = @"select * from Plantas where nombreCientifico like @nombreCientifico";
-                  
                     command.Parameters.Add(new SqlParameter("@nombreCientifico",texto));
                     break;
                 case 1:
