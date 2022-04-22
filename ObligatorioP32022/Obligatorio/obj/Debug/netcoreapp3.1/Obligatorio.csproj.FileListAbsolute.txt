@@ -477,6 +477,13 @@ C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Oblig
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.dll
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.pdb
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.genruntimeconfig.cache
+C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.AssemblyInfoInputs.cache
+C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.AssemblyInfo.cs
+C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorAssemblyInfo.cache
+C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorAssemblyInfo.cs
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Obligatorio.exe
@@ -607,13 +614,6 @@ C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Dominio.pdb
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Repositorio.pdb
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.csproj.AssemblyReference.cache
-C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.AssemblyInfoInputs.cache
-C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.AssemblyInfo.cs
-C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.csproj.CoreCompileInputs.cache
-C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorAssemblyInfo.cache
-C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorAssemblyInfo.cs
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\staticwebassets\Obligatorio.StaticWebAssets.Manifest.cache
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\staticwebassets\Obligatorio.StaticWebAssets.xml
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\scopedcss\bundle\Obligatorio.styles.css
@@ -624,6 +624,7 @@ C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Planta\AgregarFicha.cshtml.g.cs
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Planta\AgregarPlanta.cshtml.g.cs
+C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Planta\BuscarPlanta.cshtml.g.cs
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Planta\ListaPlantas.cshtml.g.cs
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs

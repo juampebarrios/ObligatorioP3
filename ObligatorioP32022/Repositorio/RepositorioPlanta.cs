@@ -59,7 +59,7 @@ namespace Repositorio
         {
             ICollection<Planta> result = new List<Planta>();
             IDbCommand command = _con.CreateCommand();
-            command.CommandText = "select * from dbo.Plantas";
+            command.CommandText = "exec spBuscarPlantas";
             //ommand.CommandType = CommandType.StoredProcedure;
             try
             {
@@ -81,25 +81,6 @@ namespace Repositorio
                     result.Add(miPlanta);
                 }
 
-                /*
-                    _con.Open();
-                    _Reader = _Comando.ExecuteReader();
-
-                    if (_Reader.HasRows)
-                    {
-                        _lista = new List<Planta>();
-
-                        while (_Reader.Read())
-                        {
-                        Planta pl = new Planta(Convert.ToInt32(_Reader["id"]),(_Reader["nombreCientifico"]).ToString(), (_Reader["nombresVulgares"]).ToString(), _Reader["descripcion"].ToString(), (_Reader["ambiente"]).ToString(), Convert.ToInt64(_Reader["alturaMax"]), Convert.ToInt64(_Reader["precioUnitario"]));
-                            _lista.Add(pl);
-                        }
-                    }
-
-                    _Reader.Close();*/
-
-
-
             }
             catch (Exception e)
             {
@@ -120,7 +101,7 @@ namespace Repositorio
         public Planta getByID(int pd)
         {
             Planta miPlanta = null;
-            SqlCommand oComando = new SqlCommand("Exec  BuscarPlanta " + "'" + pd + "'",(SqlConnection)_con);
+            SqlCommand oComando = new SqlCommand("Exec  BuscarPlanta " + "'" + pd + "'", (SqlConnection)_con);
 
             SqlDataReader reader;
 
@@ -185,7 +166,7 @@ namespace Repositorio
             oComando.Parameters.Add(_precio);
             oComando.Parameters.Add(_foto);
             oComando.Parameters.Add(_Retorno);
-            
+
             try
             {
                 _con.Open();
@@ -260,19 +241,18 @@ namespace Repositorio
             }
         }
 
-        public Planta BuscarPlanta(int id, string texto)
+        public IEnumerable BuscarPlanta(int id, string texto)
         {
-            Planta miPlanta = null;
+            ICollection<Planta> result = new List<Planta>();
             IDbCommand command = _con.CreateCommand();
 
-            IDataReader reader;
             switch (id)
             {
                 case 0:
-                    command.CommandText = "select * from dbo.Plantas where nombreCientifico like " + texto + "";
+                    command.CommandText = "select * from dbo.Plantas where nombreCientifico like " + texto;
                     break;
                 case 1:
-                    command.CommandText = "select * from dbo.Plantas where nombresVulgares like " + texto + "";
+                    command.CommandText = "BuscarPlantaNV " + texto ;
                     break;
                 case 2:
                     break;
@@ -287,23 +267,25 @@ namespace Repositorio
             {
                 _con.Open();
 
-                reader = command.ExecuteReader();
-                if (reader.Read())
+
+                using IDataReader reader = command.ExecuteReader();
+                while (reader.Read())
                 {
-                    miPlanta = new Planta();
+                    Planta miPlanta = new Planta();
+                    miPlanta.IdPlanta = (int)reader["id"];
                     miPlanta.NombreCientifico = (string)reader["nombreCientifico"];
-                    miPlanta.NombreVulgar = (string)reader["nombresVulgares "];
-                    miPlanta.Descripcion = (string)reader["descripcion "];
-                    miPlanta.Ambiente = (string)reader["ambiente "];
-                    miPlanta.AlturaMax = (double)reader["alturaMax "];
-                    miPlanta.Precio = (double)reader["precioUnitario "];
-                   // miPlanta.Foto = (string)reader["foto "];
+                    miPlanta.NombreVulgar = (string)reader["nombresVulgares"];
+                    miPlanta.Descripcion = (string)reader["descripcion"];
+                    miPlanta.Ambiente = (string)reader["ambiente"];
+                    miPlanta.AlturaMax = Convert.ToInt64(reader["alturaMax"]);
+                    miPlanta.Precio = Convert.ToInt64(reader["precioUnitario"]);
+                    result.Add(miPlanta);
                 }
-                reader.Close();
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                Console.WriteLine(string.Format("Error: {0}", ex.Message));
+
+                Console.WriteLine(string.Format("Error: {0}", e.Message));
             }
             finally
             {
@@ -313,8 +295,10 @@ namespace Repositorio
                     _con.Dispose();
                 }
             }
-            return miPlanta;
+            return result;
+
 
         }
+
     }
 }

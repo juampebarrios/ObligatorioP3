@@ -13,6 +13,6 @@ namespace Repositorio
         void Insert(T obj);
         void Delete(int id);
         void Update(T obj);
-        Planta BuscarPlanta(int id, string texto);
+        IEnumerable BuscarPlanta(int id, string texto);
     }
 }
