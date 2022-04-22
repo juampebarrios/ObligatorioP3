@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Obligatorio\\Obligatorio.csproj": {}
+    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Obligatorio\\Obligatorio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\alumnoFI.FACULTADES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\joaquin.suarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alumnoFI.FACULTADES\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\joaquin.suarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -60,28 +54,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.213\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Obligatorio\\Obligatorio.csproj": {
+    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Obligatorio\\Obligatorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Obligatorio\\Obligatorio.csproj",
+        "projectUniqueName": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Obligatorio\\Obligatorio.csproj",
         "projectName": "Obligatorio",
-        "projectPath": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Obligatorio\\Obligatorio.csproj",
-        "packagesPath": "C:\\Users\\alumnoFI.FACULTADES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Obligatorio\\obj\\",
+        "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Obligatorio\\Obligatorio.csproj",
+        "packagesPath": "C:\\Users\\joaquin.suarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Obligatorio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alumnoFI.FACULTADES\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\joaquin.suarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -94,11 +82,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj"
+              "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj": {
-                "projectPath": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj"
+              "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj": {
+                "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj"
               }
             }
           }
@@ -146,28 +134,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.213\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj": {
+    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj",
+        "projectUniqueName": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj",
         "projectName": "Repositorio",
-        "projectPath": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj",
-        "packagesPath": "C:\\Users\\alumnoFI.FACULTADES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\obj\\",
+        "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj",
+        "packagesPath": "C:\\Users\\joaquin.suarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alumnoFI.FACULTADES\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\joaquin.suarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -180,8 +162,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\alumnoFI.FACULTADES\\Desktop\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj"
+              "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -216,7 +198,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.213\\RuntimeIdentifierGraph.json"
         }
       }
     }
