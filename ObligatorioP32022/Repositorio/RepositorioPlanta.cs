@@ -301,7 +301,6 @@ namespace Repositorio
             }
             catch (Exception e)
             {
-
                 Console.WriteLine(string.Format("Error: {0}", e.Message));
             }
             finally

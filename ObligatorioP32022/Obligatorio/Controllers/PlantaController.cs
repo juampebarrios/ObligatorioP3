@@ -37,9 +37,14 @@ namespace Obligatorio.Controllers
         [HttpPost]
         public ActionResult PlantaAgregada(string vulgares)
         {
-            //return View(repositorio.Get());
-            //return View();
+            //if (repositorio.AgregarPlanta){
+            return Json(new { nuevaPlanta = true });
+            //} else {
+            //return Json(new { nuevaPlanta = false });
+            //}
+
         }
+
 
         public ActionResult AgregarFicha(int id)
         {
