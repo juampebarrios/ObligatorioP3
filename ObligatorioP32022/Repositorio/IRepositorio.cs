@@ -10,7 +10,7 @@ namespace Repositorio
     {
         IEnumerable Get();
         T getByID(int pd);
-        void Insert(T obj);
+        bool Insert(T obj);
         void Delete(int id);
         void Update(T obj);
         IEnumerable BuscarPlanta(int id, string texto);

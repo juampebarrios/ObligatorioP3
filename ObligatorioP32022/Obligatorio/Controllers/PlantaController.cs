@@ -35,13 +35,15 @@ namespace Obligatorio.Controllers
         }
 
         [HttpPost]
-        public ActionResult PlantaAgregada(string vulgares)
+        public ActionResult PlantaAgregada(string cientifico, string vulgares, string tipoPlanta, string ambient, double altura, double precio, string descripcion)
         {
-            //if (repositorio.AgregarPlanta){ DEBERIA RETORTAR TRUE O FALSE
+            Planta miPlanta = new Planta(cientifico, vulgares, descripcion, ambient, altura, precio);
+            if (repositorio.Insert(miPlanta))
+            { 
                 return Json(new { nuevaPlanta = true });
-            //} else {
-            //return Json(new { nuevaPlanta = false });
-            //}
+            } else {
+            return Json(new { nuevaPlanta = false });
+            }
 
         }
 

@@ -137,8 +137,9 @@ namespace Repositorio
             return miPlanta;
         }
 
-        public void Insert(Planta obj)
+        public bool Insert(Planta obj)
         {
+            bool success = false;
             SqlCommand oComando = new SqlCommand("spAltaPlanta", (SqlConnection)_con);
             oComando.CommandType = CommandType.StoredProcedure;
 
@@ -173,7 +174,8 @@ namespace Repositorio
                 oComando.ExecuteNonQuery();
                 oAfectados = (int)oComando.Parameters["@Retorno"].Value;
                 if (oAfectados != 0)
-                    throw new Exception("No se pudo modificar");
+                    throw new Exception("No se pudo agregar");
+                else success = true;
 
             }
             catch (Exception ex)
@@ -188,6 +190,7 @@ namespace Repositorio
                     _con.Dispose();
                 }
             }
+             return success;
         }
         public void Update(Planta obj)
         {

@@ -16,9 +16,13 @@ namespace Dominio
         public string Foto { get; set; }
         public double Precio { get; set; }
 
-        public Planta(int id, string nom, string nomv, string desc, string amb, double alt, double precio)
+        public Planta()
         {
-            this.IdPlanta = id;
+        }
+        public Planta(//int id,
+                      string nom, string nomv, string desc, string amb, double alt, double precio)
+        {
+            //this.IdPlanta = id;
             this.NombreCientifico = nom;
             this.NombreVulgar = nomv;
             this.Descripcion = desc;
@@ -26,8 +30,6 @@ namespace Dominio
             this.AlturaMax = alt;
             this.Precio = precio;
         }
-        public Planta()
-        {
-        }
+        
     }
 }

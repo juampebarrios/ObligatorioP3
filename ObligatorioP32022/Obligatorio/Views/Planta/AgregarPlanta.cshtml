@@ -1,6 +1,4 @@
-﻿@{
-    ViewData["Title"] = "Agregar Planta";
-}
+﻿@{ ViewData["Title"] = "Agregar Planta"; }
 
 
 <div class="row justify-content-center">
@@ -11,7 +9,7 @@
             <div class="form-group">
                 <label for="selPlantType">Tipo</label>
                 <select class="form-control" id="selPlantType">
-                    @*SE TIENEN QUE CARGAR TIPOS DE PLANTA DESDE LA BASE*@
+                    
                     <option value="">Seleccione...</option>
                 </select>
             </div>
@@ -41,8 +39,8 @@
                 <input type="number" class="form-control" id="txtPlantPrice" placeholder="Precio unitario" min="0">
             </div>
             <div class="form-group">
-                    <label for="txtPlantImg">Imagen:</label>
-                    <input type="file" class="form-control" id="txtPlantImg" multiple>
+                <label for="txtPlantImg">Imagen:</label>
+                <input type="file" class="form-control" id="txtPlantImg" multiple>
             </div>
             <div class="form-group">
                 <label for="txtPlantDesc">Decripción:</label>
@@ -66,7 +64,7 @@
 
         $('#txtPlantDesc').keyup(function () {
             let text_length = $('#txtPlantDesc').val().length;
-            let text_remaining = text_max - text_length;
+            text_remaining = text_max - text_length;
 
             $('#characterCounter').html(text_length + ' / ' + text_max);
             if (text_length > text_max || text_length < text_min) $('#characterCounter').css("color", "red");
@@ -102,8 +100,9 @@
     });
 
     $('#btnSavePlant').click(function () {
-        validateParams();
-        callController();
+        if (validateParams()) {
+            callController();
+        }
     });
 
     function validateParams() {
@@ -113,8 +112,16 @@
         let amb = validateAmb();
         let height = validateHeight();
         let price = validatePrice();
-        @*let pic = validatePicture();*@
+        let pic = validatePicture();
         let desc = validateDesc();
+
+        let valid = false;
+
+        if (paramType && nameC && nameC && nameV & amb && height & height && price && desc) {
+            valid = true;
+        }
+
+        return valid;
     }
 
     function validateType() {
@@ -159,14 +166,36 @@
         return valid;
     }
 
+    function validatePicture() {
+        let valid = false;
+
+
+        return valid;
+    }
+
     async function callController() {
         console.log('callController');
-        let vulgarNames = arrayNamesV.join();
+        let tipo = $('#selPlantType').val();
+        let nombreC = $('#txtPlantNameC').val();
+        let nombresV = arrayNamesV.join();
+        let amb = $('#txtPlantAmb').val();
+        let altura = $('#txtPlantHeight').val();
+        let precio = $('#txtPlantPrice').val();
+        let desc = $('#txtPlantDesc').val();
+
         await $.ajax({
             type: "POST",
             url: '/Planta/PlantaAgregada',
             dataType: "json",
-            data: { "vulgares": vulgarNames },
+            data: {
+                "cientifico": nombreC,
+                "vulgares": nombresV,
+                "tipoPlanta": tipo,
+                "ambient": amb,
+                "altura": altura,
+                "precio": precio,
+                "descripcion": desc
+            },
             success: function (res) {
                 console.log(res);
             },

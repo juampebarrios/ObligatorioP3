@@ -26,6 +26,7 @@
     <Folder Include="Views\Login\" />
     <Folder Include="wwwroot\assets\" />
     <Folder Include="Views\Tipo\" />
+    <Folder Include="wwwroot\Imagenes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\" />
