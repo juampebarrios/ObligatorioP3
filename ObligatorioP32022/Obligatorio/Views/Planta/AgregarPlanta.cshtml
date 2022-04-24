@@ -9,7 +9,7 @@
         <p>Complete todos los campos con la infromación de la planta a agregar.</p>
         <form class="card p-3">
             <div class="form-group">
-                <label for="txtPlantType">Tipo</label>
+                <label for="selPlantType">Tipo</label>
                 <select class="form-control" id="selPlantType">
                     @*SE TIENEN QUE CARGAR TIPOS DE PLANTA DESDE LA BASE*@
                     <option value="">Seleccione...</option>
@@ -58,8 +58,10 @@
 
 
 <script>
+    let textRemaining = 0;
     function countCharacters() {
-        let text_max = 200;
+        let text_min = 10;
+        let text_max = 500;
         $('#characterCounter').html('0 / ' + text_max);
 
         $('#txtPlantDesc').keyup(function () {
@@ -67,7 +69,7 @@
             let text_remaining = text_max - text_length;
 
             $('#characterCounter').html(text_length + ' / ' + text_max);
-            if (text_length > text_max) $('#characterCounter').css("color", "red");
+            if (text_length > text_max || text_length < text_min) $('#characterCounter').css("color", "red");
             else $('#characterCounter').css("color", "black");
         });
     }
@@ -100,8 +102,62 @@
     });
 
     $('#btnSavePlant').click(function () {
+        validateParams();
         callController();
     });
+
+    function validateParams() {
+        let paramType = validateType();
+        let nameC = validateNameC();
+        let nameV = validateNameV();
+        let amb = validateAmb();
+        let height = validateHeight();
+        let price = validatePrice();
+        @*let pic = validatePicture();*@
+        let desc = validateDesc();
+    }
+
+    function validateType() {
+        let valid = false;
+        if ($('#selPlantType').val() !== '') valid = true;
+        return valid;
+    }
+
+    function validateNameC() {
+        let valid = false;
+        if ($('#txtPlantNameC').val() !== '') valid = true;
+        return valid;
+    }
+
+    function validateNameV() {
+        let valid = false;
+        if (arrayNamesV.length > 0) valid = true;
+        return valid;
+    }
+
+    function validateAmb() {
+        let valid = false;
+        if ($('#txtPlantAmb').val() !== '') valid = true;
+        return valid;
+    }
+
+    function validateHeight() {
+        let valid = false;
+        if ($('#txtPlantHeight').val() !== '' && !isNaN($('#txtPlantHeight').val())) valid = true;
+        return valid;
+    }
+
+    function validatePrice() {
+        let valid = false;
+        if ($('#txtPlantPrice').val() !== '' && !isNaN($('#txtPlantPrice').val())) valid = true;
+        return valid;
+    }
+
+    function validateDesc() {
+        let valid = false;
+        if ($('#txtPlantDesc').val() !== '' && !isNaN($('#txtPlantDesc').val())) valid = true;
+        return valid;
+    }
 
     async function callController() {
         console.log('callController');

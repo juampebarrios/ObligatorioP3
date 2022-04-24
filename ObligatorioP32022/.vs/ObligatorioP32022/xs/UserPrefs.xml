@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{86D160BD-B2B0-4EF4-AAE8-2EF6D7290587}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio/Controllers/PlantaController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio/Views/Tipo/AgregarTipo.cshtml">
     <Files>
-      <File FileName="Obligatorio/Views/Planta/AgregarPlanta.cshtml" Line="100" Column="8" />
-      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="38" Column="42" NotebookId="1" />
-      <File FileName="Repositorio/RepositorioPlanta.cs" Line="315" Column="1" NotebookId="1" />
+      <File FileName="Obligatorio/Views/Planta/AgregarPlanta.cshtml" Line="61" Column="27" />
+      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="28" Column="43" NotebookId="1" />
+      <File FileName="Repositorio/RepositorioPlanta.cs" NotebookId="1" />
+      <File FileName="Obligatorio/Views/Tipo/AgregarTipo.cshtml" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,13 +12,13 @@
           <Node name="ObligatorioP32022" expanded="True">
             <Node name="Dominio" expanded="True" />
             <Node name="Obligatorio" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="PlantaController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Planta" expanded="True" />
                 <Node name="Shared" expanded="True" />
-                <Node name="Tipo" expanded="True" />
+                <Node name="Tipo" expanded="True">
+                  <Node name="AgregarTipo.cshtml" selected="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>

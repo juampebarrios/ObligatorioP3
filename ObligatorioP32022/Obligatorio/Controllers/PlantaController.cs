@@ -37,8 +37,8 @@ namespace Obligatorio.Controllers
         [HttpPost]
         public ActionResult PlantaAgregada(string vulgares)
         {
-            //if (repositorio.AgregarPlanta){
-            return Json(new { nuevaPlanta = true });
+            //if (repositorio.AgregarPlanta){ DEBERIA RETORTAR TRUE O FALSE
+                return Json(new { nuevaPlanta = true });
             //} else {
             //return Json(new { nuevaPlanta = false });
             //}
