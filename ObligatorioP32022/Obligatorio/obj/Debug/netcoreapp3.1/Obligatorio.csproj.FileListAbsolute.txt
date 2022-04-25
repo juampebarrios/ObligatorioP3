@@ -157,165 +157,6 @@ C:/Users/jpbar/OneDrive/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligat
 C:/Users/jpbar/OneDrive/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.dll
 C:/Users/jpbar/OneDrive/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.pdb
 C:/Users/jpbar/OneDrive/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.genruntimeconfig.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/appsettings.Development.json
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/appsettings.json
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.StaticWebAssets.xml
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.deps.json
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.runtimeconfig.json
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.runtimeconfig.dev.json
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.pdb
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.Views.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.Views.pdb
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Dominio.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Repositorio.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Dominio.pdb
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Repositorio.pdb
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.csproj.AssemblyReference.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.GeneratedMSBuildEditorConfig.editorconfig
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.AssemblyInfoInputs.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.AssemblyInfo.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.csproj.CoreCompileInputs.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.MvcApplicationPartsAssemblyInfo.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.RazorAssemblyInfo.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.RazorAssemblyInfo.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/staticwebassets/Obligatorio.StaticWebAssets.Manifest.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.TagHelpers.input.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.TagHelpers.output.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.RazorCoreGenerate.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.RazorTargetAssemblyInfo.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.RazorTargetAssemblyInfo.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.Views.pdb
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.csproj.CopyComplete
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.dll
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.pdb
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.genruntimeconfig.cache
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Login/Index.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Tipo/AgregarTipo.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/ListaPlantas.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/AgregarPlanta.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/AgregarFicha.cshtml.g.cs
 C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.GeneratedMSBuildEditorConfig.editorconfig
 C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.AssemblyInfoInputs.cache
 C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.AssemblyInfo.cs
@@ -640,167 +481,165 @@ C:/Users/alumnoFI.FACULTADES/Desktop/ObligatorioP3/ObligatorioP32022/Obligatorio
 C:/Users/alumnoFI.FACULTADES/Desktop/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.pdb
 C:/Users/alumnoFI.FACULTADES/Desktop/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.genruntimeconfig.cache
 C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/BuscarPlanta.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/BuscarPlanta.cshtml.g.cs
-/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/PlantaAgregada.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Obligatorio.exe
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Obligatorio.deps.json
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Obligatorio.runtimeconfig.json
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Obligatorio.runtimeconfig.dev.json
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Obligatorio.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Obligatorio.pdb
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Obligatorio.Views.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Obligatorio.Views.pdb
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Dominio.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Repositorio.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Dominio.pdb
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Repositorio.pdb
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.AssemblyInfoInputs.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.AssemblyInfo.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.csproj.CoreCompileInputs.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorAssemblyInfo.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorAssemblyInfo.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\staticwebassets\Obligatorio.StaticWebAssets.Manifest.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\staticwebassets\Obligatorio.StaticWebAssets.xml
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\scopedcss\bundle\Obligatorio.styles.css
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.TagHelpers.input.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.TagHelpers.output.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorCoreGenerate.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Planta\AgregarFicha.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Planta\AgregarPlanta.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Planta\BuscarPlanta.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Planta\ListaPlantas.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Planta\PlantaAgregada.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Tipo\AgregarTipo.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorTargetAssemblyInfo.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorTargetAssemblyInfo.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.Views.pdb
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.csproj.CopyComplete
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.pdb
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.genruntimeconfig.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.csprojAssemblyReference.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.exe
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.deps.json
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.runtimeconfig.json
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.runtimeconfig.dev.json
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.pdb
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.Views.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Obligatorio.Views.pdb
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Dominio.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Repositorio.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Dominio.pdb
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/bin/Debug/netcoreapp3.1/Repositorio.pdb
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.AssemblyInfoInputs.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.AssemblyInfo.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.csproj.CoreCompileInputs.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.RazorAssemblyInfo.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.RazorAssemblyInfo.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/staticwebassets/Obligatorio.StaticWebAssets.Manifest.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/staticwebassets/Obligatorio.StaticWebAssets.xml
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/scopedcss/bundle/Obligatorio.styles.css
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.TagHelpers.input.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.TagHelpers.output.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.RazorCoreGenerate.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Login/Index.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/AgregarFicha.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/AgregarPlanta.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/BuscarPlanta.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/ListaPlantas.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/PlantaAgregada.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Tipo/AgregarTipo.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.RazorTargetAssemblyInfo.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.RazorTargetAssemblyInfo.cs
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.Views.pdb
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.csproj.CopyComplete
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.dll
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.pdb
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.genruntimeconfig.cache
+C:/Users/joaquin.suarez/OneDrive - Pedidos Ya/Documentos/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Obligatorio.csprojAssemblyReference.cache

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj": {}
+    "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/Repositorio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj": {
+    "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Dominio/Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Dominio/Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\joaquin.suarez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\obj\\",
+        "projectPath": "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Dominio/Dominio.csproj",
+        "packagesPath": "/Users/juampebarrios/.nuget/packages/",
+        "outputPath": "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joaquin.suarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/juampebarrios/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,36 +52,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.213\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.104/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj": {
+    "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj",
+        "projectUniqueName": "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/Repositorio.csproj",
         "projectName": "Repositorio",
-        "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\Repositorio.csproj",
-        "packagesPath": "C:\\Users\\joaquin.suarez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Repositorio\\obj\\",
+        "projectPath": "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/Repositorio.csproj",
+        "packagesPath": "/Users/juampebarrios/.nuget/packages/",
+        "outputPath": "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joaquin.suarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/juampebarrios/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\joaquin.suarez\\OneDrive - Pedidos Ya\\Documentos\\GitHub\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj"
+              "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Dominio/Dominio.csproj": {
+                "projectPath": "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Dominio/Dominio.csproj"
               }
             }
           }
@@ -98,10 +94,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.Http.Features": {
-              "target": "Package",
-              "version": "[5.0.16, )"
-            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
@@ -122,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.213\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.104/RuntimeIdentifierGraph.json"
         }
       }
     }
