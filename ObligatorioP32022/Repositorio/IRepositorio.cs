@@ -1,5 +1,4 @@
 ﻿using Dominio;
-using Microsoft.AspNetCore;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,6 +13,6 @@ namespace Repositorio
         bool Insert(T obj);
         void Delete(int id);
         void Update(T obj);
-        
+        IEnumerable Buscar(int id, string texto);
     }
 }

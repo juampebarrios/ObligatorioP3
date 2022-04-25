@@ -5,12 +5,12 @@
     <div class="col col-sm-8">
         <h1>@ViewData["Title"]</h1>
         <p>Complete todos los campos con la infromación de la planta a agregar.</p>
-        <form class="card p-3">
+        <form class="card p-3" asp-action="PlantaAgregada">
             <div class="form-group">
                 <label for="selPlantType">Tipo</label>
                 <select class="form-control" id="selPlantType">
-
                     <option value="">Seleccione...</option>
+                    <option value="test">test</option>
                 </select>
             </div>
             <div class="form-group">
@@ -22,7 +22,6 @@
                 <div class="input-group">
                     <input type="text" class="form-control" id="txtPlantNameV" placeholder="Nombres vulgares">
                     <button class="btn btn-outline-primary" type="button" id="btnAddName">Agregar nombre</button>
-
                 </div>
                 <ul class="list-group col col-sm-6 mt-4" id="listNames"></ul>
             </div>
@@ -48,7 +47,7 @@
                 <span class="pull-right label label-default" id="characterCounter"></span>
             </div>
             <div class="form-group">
-                <button type="button" id="btnSavePlant" class="btn btn-primary float-right mt-2">Agregar planta</button>
+                <INPUT type="button" id="btnSavePlant" class="btn btn-primary float-right mt-2" value="Agregar planta">>
             </div>
         </form>
     </div>
@@ -112,7 +111,7 @@
         let amb = validateAmb();
         let height = validateHeight();
         let price = validatePrice();
-        let pic = validatePicture();
+        @*let pic = validatePicture();*@
         let desc = validateDesc();
 
         let valid = false;
@@ -190,17 +189,9 @@
         await $.ajax({
             type: "POST",
             url: '/Planta/PlantaAgregada',
-            dataType: "json",
             data: formData,
-            @*data: {
-                "cientifico": nombreC,
-                "vulgares": nombresV,
-                "tipoPlanta": tipo,
-                "ambient": amb,
-                "altura": altura,
-                "precio": precio,
-                "descripcion": desc
-            },*@
+            contentType: false,
+            processData: false,
             success: function (res) {
                 console.log(res);
             },

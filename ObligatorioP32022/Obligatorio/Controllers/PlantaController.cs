@@ -8,33 +8,25 @@ using Repositorio;
 using Microsoft.AspNetCore.Http;
 using System.Data.SqlClient;
 using System.Data;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore;
 
 namespace Obligatorio.Controllers
 {
     public class PlantaController : Controller
     {
-        // GET: PlantaController
-        IRepositorioPlanta repositorio = new RepositorioPlanta(new Repositorio.Conexion());
-
-            private IWebHostEnvironment _environment;
-            public PlantaController(IWebHostEnvironment environment)
-            {
-            _environment = environment;
-
-            }
+        // GET: ClientController
+        IRepositorio<Planta> repositorio = new RepositorioPlanta(new Repositorio.Conexion());
 
         //VISTA LISTA
         public ActionResult ListaPlantas()
         {
             return View(repositorio.Get());
         }
-        
+
         [HttpPost]
-        public ActionResult BuscarPlanta(int id,string texto)
+        public ActionResult BuscarPlanta(int id, string texto)
         {
-            return View(repositorio.BuscarPlanta(id,texto));
+            
+            return View(repositorio.Buscar(id, texto));
         }
 
         //VISTA AGREGAR PLANTA
@@ -44,22 +36,17 @@ namespace Obligatorio.Controllers
         }
 
         [HttpPost]
-        public ActionResult PlantaAgregada(string cientifico, string vulgares, TipoPlanta tipoPlanta, IFormFile imagen, string ambient, double altura, double precio, string descripcion)
+        //public ActionResult PlantaAgregada(string cientifico, string vulgares, string tipoPlanta, string ambient, double altura, double precio, string descripcion)
+        public ActionResult PlantaAgregada(string cientifico, string vulgares, TipoPlanta tipoPlanta, string ambient, double altura, double precio, string descripcion, IFormFile imagen)
         {
-            Planta miPlanta = new Planta(cientifico, vulgares, tipoPlanta, descripcion, (string)imagen, ambient, altura, precio);
 
-
-            
-            
-            //ruta física donde está ubicada wwroot en el servidor
-            if (repositorio.Insert(miPlanta))
-            {
-                repositorio.GuardarImagen(miPlanta.imagen, miPlanta);
-                return Json(new { nuevaPlanta = true });
-            } else {
-            return Json(new { nuevaPlanta = false });
-            }
-
+            Planta miPlanta = new Planta(tipoPlanta,cientifico, vulgares, descripcion,ambient, altura, precio, imagen);
+            repositorio.Insert(miPlanta);
+            //{ 
+            return Json(new { nuevaPlanta = true });
+            //} else {
+            //    return Json(new { nuevaPlanta = false });
+            //}
         }
 
 
@@ -138,5 +125,3 @@ namespace Obligatorio.Controllers
         }
     }
 }
-
-

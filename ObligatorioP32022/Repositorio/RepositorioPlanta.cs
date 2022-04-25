@@ -6,15 +6,11 @@ using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Text;
-using System.IO;
-using Microsoft.AspNetCore.Http;
-
 
 namespace Repositorio
 {
     public class RepositorioPlanta : IRepositorioPlanta
     {
-
 
         private IDbConnection _con;
 
@@ -76,7 +72,6 @@ namespace Repositorio
                 {
                     miPlanta = new Planta();
                     miPlanta.IdPlanta = (int)reader["id"];
-                    miPlanta.MiTipoPlanta = (TipoPlanta)reader["tipoPlanta"];
                     miPlanta.NombreCientifico = (string)reader["nombreCientifico"];
                     miPlanta.NombreVulgar = (string)reader["nombresVulgares"];
                     miPlanta.Descripcion = (string)reader["descripcion"];
@@ -144,45 +139,33 @@ namespace Repositorio
 
         public bool Insert(Planta obj)
         {
+            TipoPlanta miTipo = new TipoPlanta();
+            miTipo.id = 3;
+            miTipo.NombreUnico = "test";
+            miTipo.DescripcionTipo = "descripcion";
+
             bool success = false;
-            SqlCommand oComando = new SqlCommand("spAltaPlanta", (SqlConnection)_con);
-            oComando.CommandType = CommandType.StoredProcedure;
-
-            SqlParameter _nombrec = new SqlParameter("@nombreCientifico ", obj.NombreCientifico);
-            SqlParameter _tipo = new SqlParameter("@tipoPlanta ", obj.MiTipoPlanta);
-            SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.FichaCuidado);
-            SqlParameter _nombrev = new SqlParameter("@nombresVulgares ", obj.NombreVulgar);
-            SqlParameter _desc = new SqlParameter("@descripcion ", obj.Descripcion);
-            SqlParameter _ambiente = new SqlParameter("@ambiente ", obj.Ambiente);
-            SqlParameter _alt = new SqlParameter("@alturaMax ", obj.AlturaMax);
-            SqlParameter _precio = new SqlParameter("@precioUnitario ", obj.Precio);
-            SqlParameter _foto = new SqlParameter("@foto", obj.Foto);
-            SqlParameter _Retorno = new SqlParameter("@Retorno", SqlDbType.Int);
-            _Retorno.Direction = ParameterDirection.ReturnValue;
-
-            int oAfectados = -1;
-
-            oComando.Parameters.Add(_nombrec);
-            oComando.Parameters.Add(_tipo);
-            oComando.Parameters.Add(_fc);
-            oComando.Parameters.Add(_nombrev);
-            oComando.Parameters.Add(_desc);
-            oComando.Parameters.Add(_ambiente);
-            oComando.Parameters.Add(_alt);
-            oComando.Parameters.Add(_precio);
-            oComando.Parameters.Add(_foto);
-            oComando.Parameters.Add(_Retorno);
-
-
+            IDbCommand command = _con.CreateCommand();
+            IDbCommand command1 = _con.CreateCommand();
+            IDbCommand command2 = _con.CreateCommand();
+            command.CommandText = @"insert into Plantas values (@tipo,@nombreCientifico,@nombresVulgares,@descripcion,@ambiente,@alturaMax,@precioUnitario)";
+            command.Parameters.Add(new SqlParameter("@tipo", miTipo.id));
+            command.Parameters.Add(new SqlParameter("@nombreCientifico", obj.NombreCientifico));
+            command.Parameters.Add(new SqlParameter("@nombresVulgares", obj.NombreVulgar));
+            command.Parameters.Add(new SqlParameter("@descripcion", obj.Descripcion));
+            command.Parameters.Add(new SqlParameter("@ambiente", obj.Ambiente));
+            command.Parameters.Add(new SqlParameter("@alturaMax", obj.AlturaMax));
+            command.Parameters.Add(new SqlParameter("@precioUnitario", obj.Precio));
+            command.Parameters.Add(new SqlParameter("@nombre", obj.Precio));
+            command.Parameters.Add(new SqlParameter("@directorio", obj.Precio));
+           
 
             try
             {
+
                 _con.Open();
-                oComando.ExecuteNonQuery();
-                oAfectados = (int)oComando.Parameters["@Retorno"].Value;
-                if (oAfectados != 0)
-                    throw new Exception("No se pudo agregar");
-                else success = true;
+                command.ExecuteNonQuery();
+
 
             }
             catch (Exception ex)
@@ -191,6 +174,8 @@ namespace Repositorio
             }
             finally
             {
+
+
                 if (_con != null)
                 {
                     _con.Close();
@@ -206,7 +191,7 @@ namespace Repositorio
 
             SqlParameter _nombrec = new SqlParameter("@nombreCientifico ", obj.NombreCientifico);
             SqlParameter _tipo = new SqlParameter("@tipoPlanta ", obj.MiTipoPlanta);
-            SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.FichaCuidado);
+            //SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.MiFichaCuidado);
             SqlParameter _nombrev = new SqlParameter("@nombresVulgares ", obj.NombreVulgar);
             SqlParameter _desc = new SqlParameter("@descripcion ", obj.Descripcion);
             SqlParameter _ambiente = new SqlParameter("@ambiente ", obj.Ambiente);
@@ -220,7 +205,7 @@ namespace Repositorio
 
             oComando.Parameters.Add(_nombrec);
             oComando.Parameters.Add(_tipo);
-            oComando.Parameters.Add(_fc);
+            //oComando.Parameters.Add(_fc);
             oComando.Parameters.Add(_nombrev);
             oComando.Parameters.Add(_desc);
             oComando.Parameters.Add(_ambiente);
@@ -251,7 +236,8 @@ namespace Repositorio
             }
         }
 
-        public IEnumerable BuscarPlanta(int id, string texto)
+
+        public IEnumerable Buscar(int id, string texto)
         {
             ICollection<Planta> result = new List<Planta>();
             IDbCommand command = _con.CreateCommand();
@@ -267,7 +253,7 @@ namespace Repositorio
                     command.Parameters.Add(new SqlParameter("@nombresVulgares", texto));
                     break;
                 case 2:
-                    command.CommandText = @"select * from Plantas where tipoPlanta like @tipoPlanta";
+                    command.CommandText = @"select * from Plantas p, TipoPlanta tp where p.tipo = tp.id and tp.nombre = @tipoPlanta";
                     command.Parameters.Add(new SqlParameter("@tipoPlanta", texto));
                     break;
                 case 3:
@@ -322,39 +308,7 @@ namespace Repositorio
                 }
             }
             return result;
-        }
 
-        public bool GuardarImagen(IFormFile imagen, Planta planta)
-        {
-            if (imagen == null || planta == null)
-                return false;
-            // SUBIR LA IMAGEN
-            string rutaFisicaWwwRoot = _environment.WebRootPath;
-            //ruta donde se guardan las fotos de las personas
-            string nombreImagen = imagen.FileName;
-            string rutaFisicaFoto = Path.Combine
-            (rutaFisicaWwwRoot, "imagenes", nombreImagen);
-            //FileStream permite manejar archivos
-            try
-            {
-                //el método using libera los recursos del objeto FileStream al finalizar
-                using (FileStream f = new FileStream(rutaFisicaFoto, FileMode.Create))
-                {
-                    //si fueran archivos grandes o si fueran varios, deberíamos usar la versión
-                    //asincrónica de CopyTo, aquí no es necesario.
-                    //sería: await imagen.CopyToAsync (f);
-                    imagen.CopyTo(f);
-                }
-                //GUARDAR EL NOMBRE DE LA IMAGEN SUBIDA EN EL OBJETO
-                planta.imagen = nombreImagen;
-                return true;
-            }
-            catch (Exception ex)
-            {
-                return false;
-            }
         }
-
-        
     }
 }

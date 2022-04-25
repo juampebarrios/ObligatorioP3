@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,8 +11,6 @@ namespace Dominio
         public TipoPlanta MiTipoPlanta { get; set; }
         public string NombreCientifico { get; set; }
         public string NombreVulgar { get; set; }
-        public FichaCuidado FichaCuidado { get; set; }
-        public string imagen { get; set; }
         public string Descripcion { get; set; }
         public string Ambiente { get; set; }
         public double AlturaMax { get; set; }
@@ -21,15 +20,12 @@ namespace Dominio
         public Planta()
         {
         }
-        public Planta(//int id,
-                      string nom, string nomv, TipoPlanta tipoPlanta, string desc, string imagen, string amb, double alt, double precio)
+        public Planta(TipoPlanta miTipo, string nom, string nomv, string desc, string amb, double alt, double precio, IFormFile imagen)
         {
-            //this.IdPlanta = id;
+            this.MiTipoPlanta = miTipo;
             this.NombreCientifico = nom;
             this.NombreVulgar = nomv;
-            this.MiTipoPlanta = tipoPlanta;
             this.Descripcion = desc;
-            this.imagen = imagen;
             this.Ambiente = amb;
             this.AlturaMax = alt;
             this.Precio = precio;
