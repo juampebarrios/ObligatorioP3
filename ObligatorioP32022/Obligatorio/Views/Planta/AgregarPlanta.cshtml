@@ -9,8 +9,8 @@
             <div class="form-group">
                 <label for="selPlantType">Tipo</label>
                 <select class="form-control" id="selPlantType">
-                    
                     <option value="">Seleccione...</option>
+                    <option value="test">test</option>
                 </select>
             </div>
             <div class="form-group">
@@ -22,7 +22,6 @@
                 <div class="input-group">
                     <input type="text" class="form-control" id="txtPlantNameV" placeholder="Nombres vulgares">
                     <button class="btn btn-outline-primary" type="button" id="btnAddName">Agregar nombre</button>
-
                 </div>
                 <ul class="list-group col col-sm-6 mt-4" id="listNames"></ul>
             </div>
@@ -112,12 +111,12 @@
         let amb = validateAmb();
         let height = validateHeight();
         let price = validatePrice();
-        let pic = validatePicture();
+        @*let pic = validatePicture();*@
         let desc = validateDesc();
 
         let valid = false;
 
-        if (paramType && nameC && nameC && nameV & amb && height & height && price && desc) {
+        if (paramType && nameC && nameV & amb && height && price && desc) {
             valid = true;
         }
 
@@ -162,14 +161,7 @@
 
     function validateDesc() {
         let valid = false;
-        if ($('#txtPlantDesc').val() !== '' && !isNaN($('#txtPlantDesc').val())) valid = true;
-        return valid;
-    }
-
-    function validatePicture() {
-        let valid = false;
-
-
+        if ($('#txtPlantDesc').val() !== '' && $('#txtPlantDesc').val().length < 500 && $('#txtPlantDesc').val().length > 10) valid = true;
         return valid;
     }
 
@@ -182,20 +174,24 @@
         let altura = $('#txtPlantHeight').val();
         let precio = $('#txtPlantPrice').val();
         let desc = $('#txtPlantDesc').val();
+        let img = $('#txtPlantImg')[0].files;
+
+        let formData = new FormData();
+        formData.append("cientifico", nombreC);
+        formData.append("vulgares", nombresV);
+        formData.append("tipoPlanta", tipo);
+        formData.append("ambient", amb);
+        formData.append("altura", altura);
+        formData.append("precio", precio);
+        formData.append("descripcion", desc);
+        formData.append("imagen", img[0]);
 
         await $.ajax({
             type: "POST",
             url: '/Planta/PlantaAgregada',
-            dataType: "json",
-            data: {
-                "cientifico": nombreC,
-                "vulgares": nombresV,
-                "tipoPlanta": tipo,
-                "ambient": amb,
-                "altura": altura,
-                "precio": precio,
-                "descripcion": desc
-            },
+            data: formData,
+            contentType: false,
+            processData: false,
             success: function (res) {
                 console.log(res);
             },
