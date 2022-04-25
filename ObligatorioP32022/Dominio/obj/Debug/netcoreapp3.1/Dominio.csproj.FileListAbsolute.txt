@@ -36,13 +36,4 @@ C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Dominio\obj
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\Users\alumnoFI.FACULTADES\Desktop\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
-C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache

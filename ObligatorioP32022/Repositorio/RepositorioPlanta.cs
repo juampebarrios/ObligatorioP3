@@ -6,11 +6,15 @@ using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Text;
+using System.IO;
+using Microsoft.AspNetCore.Http;
+
 
 namespace Repositorio
 {
     public class RepositorioPlanta : IRepositorioPlanta
     {
+
 
         private IDbConnection _con;
 
@@ -72,6 +76,7 @@ namespace Repositorio
                 {
                     miPlanta = new Planta();
                     miPlanta.IdPlanta = (int)reader["id"];
+                    miPlanta.MiTipoPlanta = (TipoPlanta)reader["tipoPlanta"];
                     miPlanta.NombreCientifico = (string)reader["nombreCientifico"];
                     miPlanta.NombreVulgar = (string)reader["nombresVulgares"];
                     miPlanta.Descripcion = (string)reader["descripcion"];
@@ -145,7 +150,7 @@ namespace Repositorio
 
             SqlParameter _nombrec = new SqlParameter("@nombreCientifico ", obj.NombreCientifico);
             SqlParameter _tipo = new SqlParameter("@tipoPlanta ", obj.MiTipoPlanta);
-            //SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.MiFichaCuidado);
+            SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.FichaCuidado);
             SqlParameter _nombrev = new SqlParameter("@nombresVulgares ", obj.NombreVulgar);
             SqlParameter _desc = new SqlParameter("@descripcion ", obj.Descripcion);
             SqlParameter _ambiente = new SqlParameter("@ambiente ", obj.Ambiente);
@@ -159,7 +164,7 @@ namespace Repositorio
 
             oComando.Parameters.Add(_nombrec);
             oComando.Parameters.Add(_tipo);
-            //oComando.Parameters.Add(_fc);
+            oComando.Parameters.Add(_fc);
             oComando.Parameters.Add(_nombrev);
             oComando.Parameters.Add(_desc);
             oComando.Parameters.Add(_ambiente);
@@ -167,6 +172,8 @@ namespace Repositorio
             oComando.Parameters.Add(_precio);
             oComando.Parameters.Add(_foto);
             oComando.Parameters.Add(_Retorno);
+
+
 
             try
             {
@@ -190,7 +197,7 @@ namespace Repositorio
                     _con.Dispose();
                 }
             }
-             return success;
+            return success;
         }
         public void Update(Planta obj)
         {
@@ -199,7 +206,7 @@ namespace Repositorio
 
             SqlParameter _nombrec = new SqlParameter("@nombreCientifico ", obj.NombreCientifico);
             SqlParameter _tipo = new SqlParameter("@tipoPlanta ", obj.MiTipoPlanta);
-            //SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.MiFichaCuidado);
+            SqlParameter _fc = new SqlParameter("@tipoPlanta ", obj.FichaCuidado);
             SqlParameter _nombrev = new SqlParameter("@nombresVulgares ", obj.NombreVulgar);
             SqlParameter _desc = new SqlParameter("@descripcion ", obj.Descripcion);
             SqlParameter _ambiente = new SqlParameter("@ambiente ", obj.Ambiente);
@@ -213,7 +220,7 @@ namespace Repositorio
 
             oComando.Parameters.Add(_nombrec);
             oComando.Parameters.Add(_tipo);
-            //oComando.Parameters.Add(_fc);
+            oComando.Parameters.Add(_fc);
             oComando.Parameters.Add(_nombrev);
             oComando.Parameters.Add(_desc);
             oComando.Parameters.Add(_ambiente);
@@ -253,7 +260,7 @@ namespace Repositorio
             {
                 case 0:
                     command.CommandText = @"select * from Plantas where nombreCientifico like @nombreCientifico";
-                    command.Parameters.Add(new SqlParameter("@nombreCientifico",texto));
+                    command.Parameters.Add(new SqlParameter("@nombreCientifico", texto));
                     break;
                 case 1:
                     command.CommandText = @"select * from Plantas where nombresVulgares like @nombresVulgares";
@@ -315,9 +322,39 @@ namespace Repositorio
                 }
             }
             return result;
-
-
         }
 
+        public bool GuardarImagen(IFormFile imagen, Planta planta)
+        {
+            if (imagen == null || planta == null)
+                return false;
+            // SUBIR LA IMAGEN
+            string rutaFisicaWwwRoot = _environment.WebRootPath;
+            //ruta donde se guardan las fotos de las personas
+            string nombreImagen = imagen.FileName;
+            string rutaFisicaFoto = Path.Combine
+            (rutaFisicaWwwRoot, "imagenes", nombreImagen);
+            //FileStream permite manejar archivos
+            try
+            {
+                //el método using libera los recursos del objeto FileStream al finalizar
+                using (FileStream f = new FileStream(rutaFisicaFoto, FileMode.Create))
+                {
+                    //si fueran archivos grandes o si fueran varios, deberíamos usar la versión
+                    //asincrónica de CopyTo, aquí no es necesario.
+                    //sería: await imagen.CopyToAsync (f);
+                    imagen.CopyTo(f);
+                }
+                //GUARDAR EL NOMBRE DE LA IMAGEN SUBIDA EN EL OBJETO
+                planta.imagen = nombreImagen;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        
     }
 }

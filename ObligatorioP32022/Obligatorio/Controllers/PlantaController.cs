@@ -8,13 +8,22 @@ using Repositorio;
 using Microsoft.AspNetCore.Http;
 using System.Data.SqlClient;
 using System.Data;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore;
 
 namespace Obligatorio.Controllers
 {
     public class PlantaController : Controller
     {
-        // GET: ClientController
-        IRepositorio<Planta> repositorio = new RepositorioPlanta(new Repositorio.Conexion());
+        // GET: PlantaController
+        IRepositorioPlanta repositorio = new RepositorioPlanta(new Repositorio.Conexion());
+
+            private IWebHostEnvironment _environment;
+            public PlantaController(IWebHostEnvironment environment)
+            {
+            _environment = environment;
+
+            }
 
         //VISTA LISTA
         public ActionResult ListaPlantas()
@@ -35,11 +44,17 @@ namespace Obligatorio.Controllers
         }
 
         [HttpPost]
-        public ActionResult PlantaAgregada(string cientifico, string vulgares, string tipoPlanta, string ambient, double altura, double precio, string descripcion)
+        public ActionResult PlantaAgregada(string cientifico, string vulgares, TipoPlanta tipoPlanta, IFormFile imagen, string ambient, double altura, double precio, string descripcion)
         {
-            Planta miPlanta = new Planta(cientifico, vulgares, descripcion, ambient, altura, precio);
+            Planta miPlanta = new Planta(cientifico, vulgares, tipoPlanta, descripcion, (string)imagen, ambient, altura, precio);
+
+
+            
+            
+            //ruta física donde está ubicada wwroot en el servidor
             if (repositorio.Insert(miPlanta))
-            { 
+            {
+                repositorio.GuardarImagen(miPlanta.imagen, miPlanta);
                 return Json(new { nuevaPlanta = true });
             } else {
             return Json(new { nuevaPlanta = false });

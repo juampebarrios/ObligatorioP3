@@ -5,10 +5,8 @@ using System.IO;
 using Dominio;
 using System.Threading.Tasks;
 using System.Threading;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Hosting;
 
-namespace Repositorio
+namespace Microsoft.AspNetCore.Http
 {
     public interface IFormFile
     {
@@ -20,8 +18,6 @@ namespace Repositorio
         string FileName { get; }
         Stream OpenReadStream();
         void CopyTo(Stream target);
-        Task CopyToAsync(Stream target, CancellationToken
-       cancellationToken = null);
     }
 
 }
