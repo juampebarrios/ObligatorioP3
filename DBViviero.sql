@@ -377,5 +377,3 @@ exec BuscarPlantaNV 'plantita'
 
 
 select * from TipoPlanta
-
-exec spModificarPlantaConFoto Tipo1 ,'as', 'as', 'as', @ambiente,@precioUnitario ,@nombre ,@directorio
