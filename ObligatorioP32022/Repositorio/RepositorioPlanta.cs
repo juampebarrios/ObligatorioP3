@@ -10,6 +10,7 @@ using System.IO;
 using Microsoft.AspNetCore.Http;
 
 
+
 namespace Repositorio
 {
     public class RepositorioPlanta : IRepositorioPlanta
@@ -76,7 +77,7 @@ namespace Repositorio
                 {
                     miPlanta = new Planta();
                     miPlanta.IdPlanta = (int)reader["id"];
-                    miPlanta.MiTipoPlanta = (TipoPlanta)reader["tipoPlanta"];
+                    //miPlanta.MiTipoPlanta = ((TipoPlanta)reader["tipoPlanta"]);
                     miPlanta.NombreCientifico = (string)reader["nombreCientifico"];
                     miPlanta.NombreVulgar = (string)reader["nombresVulgares"];
                     miPlanta.Descripcion = (string)reader["descripcion"];
@@ -329,7 +330,7 @@ namespace Repositorio
             if (imagen == null || planta == null)
                 return false;
             // SUBIR LA IMAGEN
-            string rutaFisicaWwwRoot = _environment.WebRootPath;
+            string rutaFisicaWwwRoot = "";//_environment.WebRootPath;
             //ruta donde se guardan las fotos de las personas
             string nombreImagen = imagen.FileName;
             string rutaFisicaFoto = Path.Combine
