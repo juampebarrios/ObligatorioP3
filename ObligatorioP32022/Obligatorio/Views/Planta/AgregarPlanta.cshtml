@@ -112,7 +112,6 @@
         let amb = validateAmb();
         let height = validateHeight();
         let price = validatePrice();
-        let pic = validatePicture();
         let desc = validateDesc();
 
         let valid = false;
@@ -190,17 +189,9 @@
         await $.ajax({
             type: "POST",
             url: '/Planta/PlantaAgregada',
-            dataType: "json",
             data: formData,
-            @*data: {
-                "cientifico": nombreC,
-                "vulgares": nombresV,
-                "tipoPlanta": tipo,
-                "ambient": amb,
-                "altura": altura,
-                "precio": precio,
-                "descripcion": desc
-            },*@
+            contentType: false,
+            processData: false,
             success: function (res) {
                 console.log(res);
             },

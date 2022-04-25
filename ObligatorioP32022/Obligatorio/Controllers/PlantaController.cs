@@ -43,10 +43,12 @@ namespace Obligatorio.Controllers
             return View();
         }
 
+
+
         [HttpPost]
         public ActionResult PlantaAgregada(string cientifico, string vulgares, TipoPlanta tipoPlanta, IFormFile imagen, string ambient, double altura, double precio, string descripcion)
         {
-            Planta miPlanta = new Planta(cientifico, vulgares, tipoPlanta, descripcion, (string)imagen, ambient, altura, precio);
+            Planta miPlanta = new Planta(cientifico, vulgares, tipoPlanta, descripcion, imagen, ambient, altura, precio);
 
 
             
@@ -54,7 +56,7 @@ namespace Obligatorio.Controllers
             //ruta física donde está ubicada wwroot en el servidor
             if (repositorio.Insert(miPlanta))
             {
-                repositorio.GuardarImagen(miPlanta.imagen, miPlanta);
+                //repositorio.GuardarImagen(miPlanta.imagen, miPlanta);
                 return Json(new { nuevaPlanta = true });
             } else {
             return Json(new { nuevaPlanta = false });

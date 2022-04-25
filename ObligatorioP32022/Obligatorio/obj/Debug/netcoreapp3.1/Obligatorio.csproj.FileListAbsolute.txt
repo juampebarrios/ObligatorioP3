@@ -642,3 +642,9 @@ C:/Users/alumnoFI.FACULTADES/Desktop/ObligatorioP3/ObligatorioP32022/Obligatorio
 C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/BuscarPlanta.cshtml.g.cs
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/BuscarPlanta.cshtml.g.cs
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Obligatorio/obj/Debug/netcoreapp3.1/Razor/Views/Planta/PlantaAgregada.cshtml.g.cs
+C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.AssemblyInfoInputs.cache
+C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.AssemblyInfo.cs
+C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.csproj.CoreCompileInputs.cache
+C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorAssemblyInfo.cache
+C:\Users\joaquin.suarez\OneDrive - Pedidos Ya\Documentos\GitHub\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Obligatorio.RazorAssemblyInfo.cs
