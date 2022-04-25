@@ -244,7 +244,8 @@ namespace Repositorio
             }
         }
 
-        public IEnumerable BuscarPlanta(int id, string texto)
+
+        public IEnumerable Buscar(int id, string texto)
         {
             ICollection<Planta> result = new List<Planta>();
             IDbCommand command = _con.CreateCommand();
@@ -253,7 +254,7 @@ namespace Repositorio
             {
                 case 0:
                     command.CommandText = @"select * from Plantas where nombreCientifico like @nombreCientifico";
-                    command.Parameters.Add(new SqlParameter("@nombreCientifico",texto));
+                    command.Parameters.Add(new SqlParameter("@nombreCientifico", texto));
                     break;
                 case 1:
                     command.CommandText = @"select * from Plantas where nombresVulgares like @nombresVulgares";
@@ -316,8 +317,6 @@ namespace Repositorio
             }
             return result;
 
-
         }
-
     }
 }

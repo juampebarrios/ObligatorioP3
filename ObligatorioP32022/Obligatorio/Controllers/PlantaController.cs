@@ -25,7 +25,7 @@ namespace Obligatorio.Controllers
         [HttpPost]
         public ActionResult BuscarPlanta(int id,string texto)
         {
-            return View(repositorio.BuscarPlanta(id,texto));
+            return View(repositorio.Buscar(id,texto));
         }
 
         //VISTA AGREGAR PLANTA
