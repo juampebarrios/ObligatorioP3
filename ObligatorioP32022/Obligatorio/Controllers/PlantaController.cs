@@ -21,11 +21,12 @@ namespace Obligatorio.Controllers
         {
             return View(repositorio.Get());
         }
-        
+
         [HttpPost]
-        public ActionResult BuscarPlanta(int id,string texto)
+        public ActionResult BuscarPlanta(int id, string texto)
         {
-            return View(repositorio.Buscar(id,texto));
+            
+            return View(repositorio.Buscar(id, texto));
         }
 
         //VISTA AGREGAR PLANTA
@@ -35,16 +36,17 @@ namespace Obligatorio.Controllers
         }
 
         [HttpPost]
-        public ActionResult PlantaAgregada(string cientifico, string vulgares, string tipoPlanta, string ambient, double altura, double precio, string descripcion)
+        //public ActionResult PlantaAgregada(string cientifico, string vulgares, string tipoPlanta, string ambient, double altura, double precio, string descripcion)
+        public ActionResult PlantaAgregada(string cientifico, string vulgares, TipoPlanta tipoPlanta, string ambient, double altura, double precio, string descripcion, IFormFile imagen)
         {
-            Planta miPlanta = new Planta(cientifico, vulgares, descripcion, ambient, altura, precio);
-            if (repositorio.Insert(miPlanta))
-            { 
-                return Json(new { nuevaPlanta = true });
-            } else {
-            return Json(new { nuevaPlanta = false });
-            }
 
+            Planta miPlanta = new Planta(tipoPlanta,cientifico, vulgares, descripcion,ambient, altura, precio, imagen);
+            repositorio.Insert(miPlanta);
+            //{ 
+            return Json(new { nuevaPlanta = true });
+            //} else {
+            //    return Json(new { nuevaPlanta = false });
+            //}
         }
 
 
@@ -123,5 +125,3 @@ namespace Obligatorio.Controllers
         }
     }
 }
-
-

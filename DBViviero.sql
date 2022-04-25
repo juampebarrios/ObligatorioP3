@@ -56,25 +56,28 @@ Create Table FacturaPlantaCompradas
 
 go
 
-create Table Plantas
-(
-    id int identity,
-	nombreCientifico nvarchar(100) not null,
-	nombresVulgares nvarchar(100) not null,
-	descripcion nvarchar(100) not null,
-	ambiente nvarchar(100) not null,
-	alturaMax numeric(12,2) not null,
-	precioUnitario numeric(12,2) not null,
-	constraint pk_Planta2 primary key(id)
-)
-go
-
 create table TipoPlanta
 (
  id int identity,
  nombre nvarchar(50) not null,
  descripcion nVarchar(200),
  constraint pk_IdTipoPlanta primary key(id)
+)
+go
+
+
+create Table Plantas
+(
+    id int identity,
+	tipo int,
+	nombreCientifico nvarchar(100) not null,
+	nombresVulgares nvarchar(100) not null,
+	descripcion nvarchar(100) not null,
+	ambiente nvarchar(100) not null,
+	alturaMax numeric(12,2) not null,
+	precioUnitario numeric(12,2) not null,
+	constraint pk_Planta2 primary key(id),
+	constraint fk_TipoID foreign key(tipo) references TipoPlanta(id)
 )
 go
 
@@ -104,6 +107,7 @@ go
 ---PLANTAS--
 create procedure spAltaPlanta
 	@id int,
+	@tipo int,
 	@nombreCientifico varchar(100) ,
 	@nombresVulgares varchar(100),
 	@descripcion varchar(100),
@@ -119,7 +123,7 @@ begin
 		end
 		else
 		begin
-			insert into Plantas values (@nombreCientifico,@nombresVulgares,@descripcion,@ambiente,@alturaMax,@precioUnitario)
+			insert into Plantas values (@tipo,@nombreCientifico,@nombresVulgares,@descripcion,@ambiente,@alturaMax,@precioUnitario)
 			if @@error <> 0
 				return -1		
 		return 0
@@ -129,6 +133,7 @@ go
 
 create procedure spAltaPlantaConFoto
 	@id int,
+	@tipo int,
 	@nombreCientifico varchar(100) ,
 	@nombresVulgares varchar(100),
 	@descripcion varchar(100),
@@ -148,7 +153,7 @@ begin
 		else
 		begin
 		begin tran
-			insert into Plantas values (@nombreCientifico,@nombresVulgares,@descripcion,@ambiente,@alturaMax,@precioUnitario)
+			insert into Plantas values (@tipo,@nombreCientifico,@nombresVulgares,@descripcion,@ambiente,@alturaMax,@precioUnitario)
 			if @@error <> 0
 			begin
 				rollback tran
@@ -339,14 +344,17 @@ end
 go
 -- .... --
 -------------------------------------------------------------------------------------------------
+insert into TipoPlanta values('Tipo1','descripcion')
 
-INSERT INTO Plantas VALUES('PLANTA',  'Plantota', 'La seniora descripcion', 'frio',12,123)
+insert into TipoPlanta values('Tipo2','descripcion')
+insert into TipoPlanta values('test','descripcion')
+INSERT INTO Plantas VALUES(1,'PLANTA',  'Plantota', 'La seniora descripcion', 'frio',12,123)
 
-INSERT INTO Plantas VALUES('PLANTA', 'Plantota', 'La seniora descripcion', 'frio',12,123)
+INSERT INTO Plantas VALUES(2,'PLANTA', 'Plantota', 'La seniora descripcion', 'frio',12,123)
 
-INSERT INTO Plantas VALUES('PLANTA', 'Plantota', 'La seniora descripcion', 'frio',12,123)
+INSERT INTO Plantas VALUES(1,'PLANTA', 'Plantota', 'La seniora descripcion', 'frio',12,123)
 
-INSERT INTO Plantas VALUES('PLANTA1', 'Plantota1', 'La seniora descripcion', 'frio',12,123)
+INSERT INTO Plantas VALUES(2,'PLANTA1', 'Plantota1', 'La seniora descripcion', 'frio',12,123)
 
 /*
 	tipoPlanta varchar(100) not null,
@@ -369,3 +377,5 @@ exec BuscarPlantaNV 'plantita'
 
 
 select * from TipoPlanta
+
+exec spModificarPlantaConFoto Tipo1 ,'as', 'as', 'as', @ambiente,@precioUnitario ,@nombre ,@directorio
