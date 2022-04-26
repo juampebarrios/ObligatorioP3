@@ -182,7 +182,7 @@
         let altura = $('#txtPlantHeight').val();
         let precio = $('#txtPlantPrice').val();
         let desc = $('#txtPlantDesc').val();
-        /*let img = $('#txtPlantImg')[0].files;*/
+        /let img = $('#txtPlantImg')[0].files;/
 
         let formData = new FormData();
         formData.append("cientifico", nombreC);
@@ -202,10 +202,16 @@
             processData: false,
             success: function (res) {
                 console.log(res);
+                callback();
             },
             error: function (req, status, error) {
                 console.log(error);
             }
         });
+    }
+
+    function callback() {
+        let location = window.location.host;
+        window.location.href = `https://${location}/Planta/ListaPlantas`;
     }
 </script>

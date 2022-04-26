@@ -20,7 +20,7 @@ namespace Repositorio
             _con = con;
         }
         public bool Delete(int id)
-        {
+        {/*
             SqlCommand oComando = new SqlCommand("BajaPlanta");
             oComando.Connection = (SqlConnection)_con;
             oComando.CommandType = CommandType.StoredProcedure;
@@ -53,7 +53,7 @@ namespace Repositorio
                     _con.Close();
                     _con.Dispose();
                 }
-            }
+            }*/
             return true;
         }
 
@@ -72,8 +72,16 @@ namespace Repositorio
                 Planta miPlanta = null;
                 while (reader.Read())
                 {
-                    miPlanta = new Planta();
+                    TipoPlanta miTipo = new TipoPlanta();
+                    RepositorioTipo miRepo = new RepositorioTipo(new Repositorio.Conexion());
+
+
+                   
+                    miPlanta = new Planta(); 
+                    miTipo.id = (int)reader["tipo"];
                     miPlanta.IdPlanta = (int)reader["id"];
+                    miPlanta.MiTipoPlanta = miRepo.getByID(miTipo.id);
+
                     miPlanta.NombreCientifico = (string)reader["nombreCientifico"];
                     miPlanta.NombreVulgar = (string)reader["nombresVulgares"];
                     miPlanta.Descripcion = (string)reader["descripcion"];
@@ -144,10 +152,9 @@ namespace Repositorio
         public bool Insert(Planta obj)
         {
             bool success = false;
-            int id = obj.MiTipoPlanta.id + 1;
             IDbCommand command = _con.CreateCommand();
             command.CommandText = @"insert into Plantas values (@tipo,@nombreCientifico,@nombresVulgares,@descripcion,@ambiente,@alturaMax,@precioUnitario)";
-            command.Parameters.Add(new SqlParameter("@tipo", id));
+            command.Parameters.Add(new SqlParameter("@tipo", obj.MiTipoPlanta.id));
             command.Parameters.Add(new SqlParameter("@nombreCientifico", obj.NombreCientifico));
             command.Parameters.Add(new SqlParameter("@nombresVulgares", obj.NombreVulgar));
             command.Parameters.Add(new SqlParameter("@descripcion", obj.Descripcion));
@@ -280,7 +287,11 @@ namespace Repositorio
 
                 while (reader.Read())
                 {
+                    TipoPlanta miTipo = new TipoPlanta();
                     Planta miPlanta = new Planta();
+                    RepositorioTipo miRepo= new RepositorioTipo(new Repositorio.Conexion());
+
+                    miTipo.id = (int)reader["tipo"];
                     miPlanta.IdPlanta = (int)reader["id"];
                     miPlanta.NombreCientifico = (string)reader["nombreCientifico"];
                     miPlanta.NombreVulgar = (string)reader["nombresVulgares"];
@@ -288,6 +299,9 @@ namespace Repositorio
                     miPlanta.Ambiente = (string)reader["ambiente"];
                     miPlanta.AlturaMax = Convert.ToInt64(reader["alturaMax"]);
                     miPlanta.Precio = Convert.ToInt64(reader["precioUnitario"]);
+                    miPlanta.MiTipoPlanta = miRepo.getByID(miTipo.id);
+
+
                     result.Add(miPlanta);
                 }
             }
@@ -316,5 +330,6 @@ namespace Repositorio
         {
             throw new NotImplementedException();
         }
+
     }
 }

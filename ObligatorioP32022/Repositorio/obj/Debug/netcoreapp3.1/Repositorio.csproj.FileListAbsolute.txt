@@ -24,19 +24,6 @@ C:/Users/alumnoFI.FACULTADES/Desktop/ObligatorioP3/ObligatorioP32022/Repositorio
 C:/Users/alumnoFI.FACULTADES/Desktop/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.csproj.CopyComplete
 C:/Users/alumnoFI.FACULTADES/Desktop/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.dll
 C:/Users/alumnoFI.FACULTADES/Desktop/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.pdb
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.csproj.AssemblyReference.cache
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.AssemblyInfoInputs.cache
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.AssemblyInfo.cs
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.csproj.CoreCompileInputs.cache
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/bin/Debug/netcoreapp3.1/Repositorio.deps.json
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/bin/Debug/netcoreapp3.1/Repositorio.dll
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/bin/Debug/netcoreapp3.1/Repositorio.pdb
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/bin/Debug/netcoreapp3.1/Dominio.dll
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/bin/Debug/netcoreapp3.1/Dominio.pdb
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.csproj.CopyComplete
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.dll
-C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.pdb
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/bin/Debug/netcoreapp3.1/Repositorio.deps.json
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/bin/Debug/netcoreapp3.1/Repositorio.dll
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/bin/Debug/netcoreapp3.1/Repositorio.pdb
@@ -50,3 +37,16 @@ C:/Users/renzo/Desktop/Obligatorio P3 2022/ObligatorioP3/ObligatorioP32022/Repos
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.csproj.CopyComplete
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.dll
 /Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/obj/Debug/netcoreapp3.1/Repositorio.pdb
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\bin\Debug\netcoreapp3.1\Repositorio.deps.json
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\bin\Debug\netcoreapp3.1\Repositorio.dll
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\bin\Debug\netcoreapp3.1\Repositorio.pdb
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj.AssemblyReference.cache
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.AssemblyInfoInputs.cache
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.AssemblyInfo.cs
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj.CopyComplete
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.dll
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.pdb

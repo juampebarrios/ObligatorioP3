@@ -70,12 +70,14 @@ namespace Obligatorio.Controllers
 
         [HttpPost]
         //public ActionResult PlantaAgregada(string cientifico, string vulgares, string tipoPlanta, string ambient, double altura, double precio, string descripcion)
-        public ActionResult PlantaAgregada(string cientifico, string vulgares, TipoPlanta tipoPlanta, string ambient, double altura, double precio, string descripcion)
+        public ActionResult PlantaAgregada(string cientifico, string vulgares, int tipoPlanta, string ambient, double altura, double precio, string descripcion)
         {
             string nombre = HttpContext.Session.GetString("usuario");
             if (nombre != null)
             {
-                Planta miPlanta = new Planta(tipoPlanta, cientifico, vulgares, descripcion, ambient, altura, precio);
+                TipoPlanta tipo = new TipoPlanta();
+                tipo = repositorioTipo.getByID(tipoPlanta);
+                Planta miPlanta = new Planta(tipo, cientifico, vulgares, descripcion, ambient, altura, precio);
                 repositorio.Insert(miPlanta);
                 //{ 
                 return Json(new { nuevaPlanta = true });
