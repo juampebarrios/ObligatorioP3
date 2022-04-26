@@ -8,6 +8,8 @@ using Repositorio;
 using Microsoft.AspNetCore.Http;
 using System.Data.SqlClient;
 using System.Data;
+using static System.Net.Mime.MediaTypeNames;
+using System.IO;
 
 namespace Obligatorio.Controllers
 {
@@ -244,5 +246,10 @@ namespace Obligatorio.Controllers
 
             }
         }
+        /*
+        [HttpPost]
+        public ActionResult AgregarImagen(Image img)
+        { 
+        }*/
     }
 }
