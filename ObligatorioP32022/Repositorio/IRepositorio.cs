@@ -11,7 +11,7 @@ namespace Repositorio
         IEnumerable Get();
         T getByID(int pd);
         bool Insert(T obj);
-        void Delete(int id);
+        bool Delete(int id);
         void Update(T obj);
         IEnumerable Buscar(int id, string texto);
     }

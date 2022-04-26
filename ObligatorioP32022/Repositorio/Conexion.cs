@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Text;
-
 namespace Repositorio
 {
-
     public class Conexion : IDbConnection
     {
         SqlConnection conn = null;
@@ -16,6 +14,7 @@ namespace Repositorio
 
         //sql string windows:
         private string connectionString = "data source=.\\; database=ViveroP3; Integrated Security = true";
+        //private string connectionString = "Server=.\\;Database=ViveroP3;Trusted_Connection=True;"
 
         public string ConnectionString { get => connectionString; set => connectionString = value; }
 
@@ -42,6 +41,7 @@ namespace Repositorio
 
         public void ChangeDatabase(string databaseName)
         {
+            throw new NotImplementedException();
         }
 
         public void Close()
@@ -63,5 +63,6 @@ namespace Repositorio
         {
             conn.Open();
         }
+        }
     }
-}
+

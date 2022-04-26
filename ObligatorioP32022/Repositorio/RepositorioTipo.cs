@@ -1,8 +1,10 @@
 ﻿using Dominio;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Common;
 using System.Data.SqlClient;
 using System.Text;
 
@@ -18,20 +20,31 @@ namespace Repositorio
         {
             _con = con;
         }
-        public void Delete(int id)
+
+
+        public bool Delete(int id)
         {
             bool success = false;
 
-            IDbCommand command = _con.CreateCommand();
-            command.CommandText = @"delete from TipoPlanta where id = @id";
-            command.Parameters.Add(new SqlParameter("@id", id));
+            IDbCommand command1 = _con.CreateCommand();
+            command1.CommandText = @"delete from TipoPlanta where id =@id";
+
+            command1.Parameters.Add(new SqlParameter("@id", id));
+            //command.CommandText = @"exec spEliminarTipo idTipo = @id";
 
 
             try
             {
                 _con.Open();
-                command.ExecuteNonQuery();
-
+                int afectado = command1.ExecuteNonQuery();
+                if (afectado == 0)
+                {
+                    throw new Exception("No se borro");
+                }
+                else 
+                {
+                    success = true;
+                }
             }
             catch (Exception ex)
             {
@@ -42,9 +55,9 @@ namespace Repositorio
                 if (_con != null)
                 {
                     _con.Close();
-                    _con.Dispose();
                 }
             }
+            return success;
         }
         public IEnumerable BuscarPlanta(int id, string texto)
         {
@@ -85,7 +98,6 @@ namespace Repositorio
                 if (_con != null)
                 {
                     _con.Close();
-                    _con.Dispose();
                 }
             }
             return result;
@@ -122,7 +134,6 @@ namespace Repositorio
                 if (_con != null)
                 {
                     _con.Close();
-                    _con.Dispose();
                 }
             }
             return miTipo;
@@ -160,7 +171,33 @@ namespace Repositorio
 
         public void Update(TipoPlanta obj)
         {
-            throw new NotImplementedException();
+            IDbCommand command = _con.CreateCommand();
+            command.CommandText = @"UPDATE TipoPlanta SET descripcion = @descripcion WHERE id = @Id";
+            command.Parameters.Add(new SqlParameter("@Id", obj.id));
+            command.Parameters.Add(new SqlParameter("@NameClientType", obj.NombreUnico));
+            command.Parameters.Add(new SqlParameter("@descripcion", obj.DescripcionTipo));
+
+            try
+            {
+                _con.Open();
+                int filasAfectadas = command.ExecuteNonQuery();
+                if (filasAfectadas == 0)
+                    throw new Exception("no se modifico");
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+            finally
+            {
+                if (_con != null)
+                {
+                    _con.Close();
+                    _con.Dispose();
+                }
+                if (command != null)
+                    command.Dispose();
+            }
         }
 
         public IEnumerable Buscar(int id, string texto)

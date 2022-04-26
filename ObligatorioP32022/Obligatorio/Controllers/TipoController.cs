@@ -31,20 +31,28 @@ namespace Obligatorio.Controllers
         [HttpPost]
         public ActionResult EliminarTipo(int id)
         {
+            bool seElimino = false;
             TipoPlanta miTipo = new TipoPlanta();
             miTipo = repositorio.getByID(id);
 
-            IEnumerable<Planta> misPlantas = (IEnumerable<Planta>)repositorioP.Buscar(2, miTipo.NombreUnico);
-            
-    
-            if (miTipo == null || misPlantas == null)
+            // IEnumerable<Planta> misPlantas = (IEnumerable<Planta>)repositorioP.Buscar(2, miTipo.NombreUnico);
+
+
+            if (miTipo == null/* || misPlantas == null*/)
             {
 
             }
             else
             {
-                repositorio.Delete(miTipo.id); 
+                seElimino = repositorio.Delete(miTipo.id);
             }
+            if (seElimino)
+            {
+                return Json(new { seElimino = true });
+            }
+            else
+            { }
+
             return View("~/ListaTipos");
 
         }
@@ -58,6 +66,23 @@ namespace Obligatorio.Controllers
 
             repositorio.Insert(miTIpo);
             return View("AgregarTipo");
+        }
+
+
+        public ActionResult EditarTipo(int id)
+        {
+            TipoPlanta miTipo = repositorio.getByID(id);
+            ViewBag.miTipo = repositorio.Get();
+            return View(miTipo);
+        }
+
+        /*EditarTipo*/
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditarTipo(TipoPlanta miTipo) 
+        {
+            repositorio.Update(miTipo);
+            return View();
         }
     }
 }

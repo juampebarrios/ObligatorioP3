@@ -22,7 +22,7 @@ namespace Repositorio
             throw new NotImplementedException();
         }
 
-        public void Delete(int id)
+        public bool Delete(int id)
         {
             throw new NotImplementedException();
         }
@@ -109,5 +109,6 @@ namespace Repositorio
         {
             throw new NotImplementedException();
         }
+
     }
 }

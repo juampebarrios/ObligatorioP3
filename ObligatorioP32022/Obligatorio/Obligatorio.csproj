@@ -23,9 +23,7 @@
     <None Remove="Views\Tipo\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Login\" />
     <Folder Include="wwwroot\assets\" />
-    <Folder Include="Views\Tipo\" />
     <Folder Include="wwwroot\Imagenes\" />
   </ItemGroup>
   <ItemGroup>

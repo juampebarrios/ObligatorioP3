@@ -39,7 +39,8 @@
                         @Html.DisplayFor(modelItem => item.DescripcionTipo)
                     </td>
                     <td>
-                        <input type="button" class="btn btn-warning" value="Modificar" id="btnModify_@item.id">
+                        <a asp-action="EditarTipo" asp-route-id="@item.id">Editar</a>
+                        
                     </td>
                     <td>
                         <input type="button" class="btn btn-danger" value="Eliminar" id="btnDelete_@item.id">
@@ -50,7 +51,6 @@
         </table>
     </div>
 </div>
-
 <script>
 
     $("input[id^='btnDelete_']").click(function () {
@@ -73,6 +73,7 @@
             processData: false,
             success: function (res) {
                 console.log(res);
+                callback();
             },
             error: function (req, status, error) {
                 console.log(error);
@@ -80,4 +81,9 @@
         });
     }
 
+
+    function callback()
+    {
+        location.reload();
+    }
 </script>

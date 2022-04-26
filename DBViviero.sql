@@ -8,7 +8,6 @@ BEGIN
 	DROP DATABASE ViveroP3
 END
 go
-
 CREATE DATABASE ViveroP3
 
 go
@@ -103,6 +102,15 @@ create table FichaCuidado
 	constraint fk_idPlantaFC foreign key(idPlanta) references Plantas(id)
 )
 go
+Create Table Usuario
+(
+	id int identity(1,1),
+    usuario  nVarchar(100) not null,
+	pass  nVarchar(100) not null,
+	constraint pl_Usu primary key(id)
+)
+go
+
 ---------------------------------------------------------------------------------------
 ---PLANTAS--
 create procedure spAltaPlanta
@@ -304,6 +312,20 @@ create proc spAgregarFichaCuidado
  end
  go
 
+ create proc spEliminarTipo
+	@idTipo int
+ as
+ begin
+	if (exists(select * from Plantas p where p.tipo = @idTipo))
+		return -1
+	if (not exists(select * from TipoPlanta t where t.id = @idTipo))
+		return -1
+	delete from Plantas where tipo = @idTipo
+	delete from TipoPlanta where id = @idTipo
+	return 0 
+ end
+ go
+
  create proc spModificarFichaCuidado
 	@idPlanta int,
 	@frecuenciaRiego varchar(100),
@@ -345,17 +367,19 @@ go
 -- .... --
 -------------------------------------------------------------------------------------------------
 insert into TipoPlanta values('Tipo1','descripcion')
-
+go
 insert into TipoPlanta values('Tipo2','descripcion')
+go
 insert into TipoPlanta values('test','descripcion')
+go
 INSERT INTO Plantas VALUES(1,'PLANTA',  'Plantota', 'La seniora descripcion', 'frio',12,123)
-
+go
 INSERT INTO Plantas VALUES(2,'PLANTA', 'Plantota', 'La seniora descripcion', 'frio',12,123)
-
+go
 INSERT INTO Plantas VALUES(1,'PLANTA', 'Plantota', 'La seniora descripcion', 'frio',12,123)
-
+go
 INSERT INTO Plantas VALUES(2,'PLANTA1', 'Plantota1', 'La seniora descripcion', 'frio',12,123)
-
+go
 /*
 	tipoPlanta varchar(100) not null,
 	nombreCientifico varchar(100) not null,
@@ -366,11 +390,8 @@ INSERT INTO Plantas VALUES(2,'PLANTA1', 'Plantota1', 'La seniora descripcion', '
 	precioUnitario money not null,
 	constraint pk_Planta2 primary key(id)
 */
-select * from FichaCuidado
-exec spListarPlantas
+select * from TipoPlanta
 
-select * from Plantas where nombresVulgares = 'Plantota1'	
+delete from Plantas where tipo = 2
+delete from TipoPlanta where id = 3
 
-select * from Plantas where nombreCientifico = 'plantita'
-
-exec BuscarPlantaNV 'plantita'

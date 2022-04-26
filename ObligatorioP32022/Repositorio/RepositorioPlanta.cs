@@ -19,7 +19,7 @@ namespace Repositorio
         {
             _con = con;
         }
-        public void Delete(int id)
+        public bool Delete(int id)
         {
             SqlCommand oComando = new SqlCommand("BajaPlanta");
             oComando.Connection = (SqlConnection)_con;
@@ -54,6 +54,7 @@ namespace Repositorio
                     _con.Dispose();
                 }
             }
+            return true;
         }
 
         public IEnumerable Get()
