@@ -1,4 +1,5 @@
 ﻿using Dominio;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -98,33 +99,35 @@ namespace Repositorio
             return result;
         }
 
-        public Planta getByID(int pd)
+        public Planta getByID(int id)
         {
             Planta miPlanta = null;
-            SqlCommand oComando = new SqlCommand("Exec  BuscarPlanta " + "'" + pd + "'", (SqlConnection)_con);
+            IDbCommand command = _con.CreateCommand();
 
-            SqlDataReader reader;
-
+           command.CommandText = @"select * from Plantas where id like @id";
+           command.Parameters.Add(new SqlParameter("@id", id));
             try
             {
                 _con.Open();
-                reader = oComando.ExecuteReader();
-                if (reader.Read())
+
+
+                using IDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
                 {
                     miPlanta = new Planta();
+                    miPlanta.IdPlanta = (int)reader["id"];
                     miPlanta.NombreCientifico = (string)reader["nombreCientifico"];
-                    miPlanta.NombreVulgar = (string)reader["nombresVulgares "];
-                    miPlanta.Descripcion = (string)reader["descripcion "];
-                    miPlanta.Ambiente = (string)reader["ambiente "];
-                    miPlanta.AlturaMax = (double)reader["alturaMax "];
-                    miPlanta.Precio = (double)reader["precioUnitario "];
-                    miPlanta.Foto = (string)reader["foto "];
+                    miPlanta.NombreVulgar = (string)reader["nombresVulgares"];
+                    miPlanta.Descripcion = (string)reader["descripcion"];
+                    miPlanta.Ambiente = (string)reader["ambiente"];
+                    miPlanta.AlturaMax = Convert.ToInt64(reader["alturaMax"]);
+                    miPlanta.Precio = Convert.ToInt64(reader["precioUnitario"]);
                 }
-                reader.Close();
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                Console.WriteLine(string.Format("Error: {0}", ex.Message));
+                Console.WriteLine(string.Format("Error: {0}", e.Message));
             }
             finally
             {
@@ -139,25 +142,17 @@ namespace Repositorio
 
         public bool Insert(Planta obj)
         {
-            TipoPlanta miTipo = new TipoPlanta();
-            miTipo.id = 3;
-            miTipo.NombreUnico = "test";
-            miTipo.DescripcionTipo = "descripcion";
-
             bool success = false;
+            int id = obj.MiTipoPlanta.id + 1;
             IDbCommand command = _con.CreateCommand();
-            IDbCommand command1 = _con.CreateCommand();
-            IDbCommand command2 = _con.CreateCommand();
             command.CommandText = @"insert into Plantas values (@tipo,@nombreCientifico,@nombresVulgares,@descripcion,@ambiente,@alturaMax,@precioUnitario)";
-            command.Parameters.Add(new SqlParameter("@tipo", miTipo.id));
+            command.Parameters.Add(new SqlParameter("@tipo", id));
             command.Parameters.Add(new SqlParameter("@nombreCientifico", obj.NombreCientifico));
             command.Parameters.Add(new SqlParameter("@nombresVulgares", obj.NombreVulgar));
             command.Parameters.Add(new SqlParameter("@descripcion", obj.Descripcion));
             command.Parameters.Add(new SqlParameter("@ambiente", obj.Ambiente));
             command.Parameters.Add(new SqlParameter("@alturaMax", obj.AlturaMax));
             command.Parameters.Add(new SqlParameter("@precioUnitario", obj.Precio));
-            command.Parameters.Add(new SqlParameter("@nombre", obj.Precio));
-            command.Parameters.Add(new SqlParameter("@directorio", obj.Precio));
            
 
             try
@@ -309,6 +304,16 @@ namespace Repositorio
             }
             return result;
 
+        }
+
+        public IEnumerable BuscarPlanta(int id, string texto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool GuardarImagen(IFormFile imagen, Planta planta)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -100,7 +100,7 @@ create table FichaCuidado
 	tipoIluminacion nVarchar(100),
 	temperatura nVarchar(100),
 	constraint pk_FotoPlanta1 primary key(id),
-	constraint fk_Importa3 foreign key(idPlanta) references Plantas(id)
+	constraint fk_idPlantaFC foreign key(idPlanta) references Plantas(id)
 )
 go
 ---------------------------------------------------------------------------------------
@@ -374,8 +374,3 @@ select * from Plantas where nombresVulgares = 'Plantota1'
 select * from Plantas where nombreCientifico = 'plantita'
 
 exec BuscarPlantaNV 'plantita'
-
-
-select * from TipoPlanta
-
-exec spModificarPlantaConFoto Tipo1 ,'as', 'as', 'as', @ambiente,@precioUnitario ,@nombre ,@directorio

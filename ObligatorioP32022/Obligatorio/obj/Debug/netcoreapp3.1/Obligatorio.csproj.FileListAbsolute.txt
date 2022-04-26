@@ -811,3 +811,4 @@ C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Oblig
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\renzo\Desktop\Obligatorio P3 2022\ObligatorioP3\ObligatorioP32022\Obligatorio\obj\Debug\netcoreapp3.1\Razor\Views\Ficha\FichaAgregar.cshtml.g.cs

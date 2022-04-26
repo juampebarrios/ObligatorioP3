@@ -15,6 +15,7 @@ namespace Obligatorio.Controllers
     {
         // GET: ClientController
         IRepositorio<Planta> repositorio = new RepositorioPlanta(new Repositorio.Conexion());
+        IRepositorio<TipoPlanta> repositorioTipo = new RepositorioTipo(new Repositorio.Conexion());
 
         //VISTA LISTA
         public ActionResult ListaPlantas()
@@ -32,15 +33,17 @@ namespace Obligatorio.Controllers
         //VISTA AGREGAR PLANTA
         public ActionResult AgregarPlanta()
         {
-            return View();
+
+            //---------------------//
+            return View(repositorioTipo.Get());
         }
 
         [HttpPost]
         //public ActionResult PlantaAgregada(string cientifico, string vulgares, string tipoPlanta, string ambient, double altura, double precio, string descripcion)
-        public ActionResult PlantaAgregada(string cientifico, string vulgares, TipoPlanta tipoPlanta, string ambient, double altura, double precio, string descripcion, IFormFile imagen)
+        public ActionResult PlantaAgregada(string cientifico, string vulgares, TipoPlanta tipoPlanta, string ambient, double altura, double precio, string descripcion)
         {
 
-            Planta miPlanta = new Planta(tipoPlanta,cientifico, vulgares, descripcion,ambient, altura, precio, imagen);
+            Planta miPlanta = new Planta(tipoPlanta,cientifico, vulgares, descripcion,ambient, altura, precio);
             repositorio.Insert(miPlanta);
             //{ 
             return Json(new { nuevaPlanta = true });

@@ -1,4 +1,6 @@
-﻿@{ ViewData["Title"] = "Agregar Planta"; }
+﻿@model IEnumerable<Dominio.TipoPlanta>
+
+@{ ViewData["Title"] = "Agregar Planta"; }
 
 
 <div class="row justify-content-center">
@@ -10,7 +12,13 @@
                 <label for="selPlantType">Tipo</label>
                 <select class="form-control" id="selPlantType">
                     <option value="">Seleccione...</option>
-                    <option value="test">test</option>
+                    @foreach (var item in Model)
+                    {
+                        <option value= "@item.id">
+                            @Html.DisplayFor(modelItem => item.NombreUnico)
+                        </option>
+
+                    }
                 </select>
             </div>
             <div class="form-group">
@@ -37,10 +45,10 @@
                 <label for="txtPlantPrice">Precio unitario (en pesos):</label>
                 <input type="number" class="form-control" id="txtPlantPrice" placeholder="Precio unitario" min="0">
             </div>
-            <div class="form-group">
-                <label for="txtPlantImg">Imagen:</label>
-                <input type="file" class="form-control" id="txtPlantImg" multiple>
-            </div>
+            @*<div class="form-group">
+                    <label for="txtPlantImg">Imagen:</label>
+                    <input type="file" class="form-control" id="txtPlantImg" multiple>
+                </div>*@
             <div class="form-group">
                 <label for="txtPlantDesc">Decripción:</label>
                 <textarea class="form-control" id="txtPlantDesc" placeholder="Añada una descripción..." onkeydown="countCharacters()" style="resize: none; height: 250px;"></textarea>
@@ -174,7 +182,7 @@
         let altura = $('#txtPlantHeight').val();
         let precio = $('#txtPlantPrice').val();
         let desc = $('#txtPlantDesc').val();
-        let img = $('#txtPlantImg')[0].files;
+        /*let img = $('#txtPlantImg')[0].files;*/
 
         let formData = new FormData();
         formData.append("cientifico", nombreC);
@@ -184,7 +192,7 @@
         formData.append("altura", altura);
         formData.append("precio", precio);
         formData.append("descripcion", desc);
-        formData.append("imagen", img[0]);
+        //formData.append("imagen", img[0]);
 
         await $.ajax({
             type: "POST",

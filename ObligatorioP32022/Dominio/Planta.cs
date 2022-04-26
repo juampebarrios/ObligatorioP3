@@ -20,7 +20,7 @@ namespace Dominio
         public Planta()
         {
         }
-        public Planta(TipoPlanta miTipo, string nom, string nomv, string desc, string amb, double alt, double precio, IFormFile imagen)
+        public Planta(TipoPlanta miTipo, string nom, string nomv, string desc, string amb, double alt, double precio)
         {
             this.MiTipoPlanta = miTipo;
             this.NombreCientifico = nom;

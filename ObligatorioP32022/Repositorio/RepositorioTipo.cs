@@ -77,7 +77,7 @@ namespace Repositorio
                 {
                     miTipo = new TipoPlanta();
                     miTipo.id = (int)reader["id"];
-                    miTipo.NombreUnico = (string)reader["nombreCientifico"];
+                    miTipo.NombreUnico = (string)reader["nombre"];
                     miTipo.DescripcionTipo = (string)reader["descripcion"];
                     result.Add(miTipo);
                 }

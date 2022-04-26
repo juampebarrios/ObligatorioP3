@@ -11,5 +11,15 @@ namespace Dominio
         public string TipoIluminacion { get; set; }
         public int Temperatura { get; set; }
         public Planta miPlanta { get; set; }
+
+        public FichaCuidado() { }
+
+        public FichaCuidado(string fr, string ti, int temp, Planta p) 
+        {
+            this.FrecuenciaRiego = fr;
+            this.TipoIluminacion = ti;
+            this.Temperatura = temp;
+            this.miPlanta = p;
+        }
     }
 }
