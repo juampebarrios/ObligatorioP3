@@ -254,20 +254,20 @@ namespace Obligatorio.Controllers
         }
 
         [HttpGet]
-        public IActionResult AgregarImagen()
+        public IActionResult AgregarFoto()
         {
             return View();
         }
 
         [HttpPost]
-        public ActionResult AgregarImagen(IFormFile imagen,FotoPlanta f)
+        public ActionResult AgregarFoto(IFormFile imagen,FotoPlanta f)
         {
             if (f == null || imagen == null || !ModelState.IsValid)
                 return View();
             //ruta física donde está ubicada wwroot en el servidor
             if (GuardarImagen(imagen, f))
             {
-                return RedirectToAction("Visualizar", f);
+                return RedirectToAction("VisualizarFoto", f);
             }
             return View(f);
 
