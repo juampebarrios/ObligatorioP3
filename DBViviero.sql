@@ -366,7 +366,7 @@ INSERT INTO Plantas VALUES(2,'PLANTA1', 'Plantota1', 'La seniora descripcion', '
 	precioUnitario money not null,
 	constraint pk_Planta2 primary key(id)
 */
-select * from dbo.Plantas	
+select * from FichaCuidado
 exec spListarPlantas
 
 select * from Plantas where nombresVulgares = 'Plantota1'	

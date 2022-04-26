@@ -21,6 +21,8 @@ namespace Obligatorio.Controllers
             return View(repositorio.Get());
         }
 
+
+        [HttpPost]
         public ActionResult AgregarFicha(string tipoi, string fr, int temp, int planta) 
         {
             Planta miPlanta = repositorio.getByID(planta);
@@ -32,7 +34,7 @@ namespace Obligatorio.Controllers
             miFicha.FrecuenciaRiego = fr;
             repositorioFicha.Insert(miFicha);
 
-            return View("FichaAgregar");
+            return RedirectToAction("FichaAgregar");
         }
     }
 }
