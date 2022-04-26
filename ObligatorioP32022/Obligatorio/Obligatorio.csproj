@@ -24,7 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\assets\" />
-    <Folder Include="wwwroot\Imagenes\" />
+    <Folder Include="wwwroot\Imagenes\Fotos\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\" />

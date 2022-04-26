@@ -1,0 +1,37 @@
+﻿@model Obligatorio.Models.FotoPlanta
+
+@{
+    ViewData["Title"] = "VisualizarFoto";
+}
+
+<h1>VisualizarFoto</h1>
+
+<h4>FotoPlanta</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Nombre)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nombre)
+            </dd>
+            <dt class="col-sm-2">
+                Foto
+            </dt>
+            <dd class="col-sm-10">
+                <img class="img-thumbnail" src="~/imagenes/fotos/@Model.FotoArchivo" />
+            </dd>
+        </dl>
+
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

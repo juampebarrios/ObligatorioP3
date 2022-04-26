@@ -8,17 +8,23 @@ using Repositorio;
 using Microsoft.AspNetCore.Http;
 using System.Data.SqlClient;
 using System.Data;
-using static System.Net.Mime.MediaTypeNames;
 using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using Obligatorio.Models;
 
 namespace Obligatorio.Controllers
 {
     public class PlantaController : Controller
     {
-
+        private IWebHostEnvironment _environment;
         // GET: ClientController
         IRepositorio<Planta> repositorio = new RepositorioPlanta(new Repositorio.Conexion());
         IRepositorio<TipoPlanta> repositorioTipo = new RepositorioTipo(new Repositorio.Conexion());
+        public PlantaController(IWebHostEnvironment environment)
+        {
+            _environment = environment;
+        }
+
         //VISTA LISTA
         public ActionResult ListaPlantas()
         {
@@ -246,10 +252,58 @@ namespace Obligatorio.Controllers
 
             }
         }
-        /*
+
+        [HttpGet]
+        public IActionResult AgregarImagen()
+        {
+            return View();
+        }
+
         [HttpPost]
-        public ActionResult AgregarImagen(Image img)
-        { 
-        }*/
-    }
+        public ActionResult AgregarImagen(IFormFile imagen,FotoPlanta f)
+        {
+            if (f == null || imagen == null || !ModelState.IsValid)
+                return View();
+            //ruta física donde está ubicada wwroot en el servidor
+            if (GuardarImagen(imagen, f))
+            {
+                return RedirectToAction("Visualizar", f);
+            }
+            return View(f);
+
+
+
+        }
+
+        private bool GuardarImagen(IFormFile imagen, FotoPlanta fp)
+        {
+            if (imagen == null || fp == null)
+                return false;
+            // SUBIR LA IMAGEN
+            string rutaFisicaWwwRoot = _environment.WebRootPath;
+            //ruta donde se guardan las fotos de las pe
+            string nombreImagen = imagen.FileName;
+            string rutaFisicaFoto = Path.Combine
+            (rutaFisicaWwwRoot, "Imagenes", "Fotos", nombreImagen);
+            //FileStream permite manejar archivos
+            try
+            {
+                //el método using libera los recursos del objeto FileStream al finalizar
+                using (FileStream f = new FileStream(rutaFisicaFoto, FileMode.Create))
+                {
+                    //si fueran archivos grandes o si fueran varios, deberíamos usar la versión
+                    //asincrónica de CopyTo, aquí no es necesario.
+                    //sería: await imagen.CopyToAsync (f);
+                    imagen.CopyTo(f);
+                }
+                //GUARDAR EL NOMBRE DE LA IMAGEN SUBIDA EN EL OBJETO
+                fp.Nombre = nombreImagen;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+        }
 }
