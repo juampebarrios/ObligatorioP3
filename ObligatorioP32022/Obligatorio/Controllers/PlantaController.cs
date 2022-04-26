@@ -13,19 +13,22 @@ namespace Obligatorio.Controllers
 {
     public class PlantaController : Controller
     {
+
         // GET: ClientController
         IRepositorio<Planta> repositorio = new RepositorioPlanta(new Repositorio.Conexion());
         IRepositorio<TipoPlanta> repositorioTipo = new RepositorioTipo(new Repositorio.Conexion());
         //VISTA LISTA
         public ActionResult ListaPlantas()
         {
-            if ()
+
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
             {
                  return View(repositorio.Get());
             }
             else
             {
-                return RedirectToAction("~/Login/Index");
+                return View("Login/Index");
             }
 
         }
@@ -33,48 +36,98 @@ namespace Obligatorio.Controllers
         [HttpPost]
         public ActionResult BuscarPlanta(int id, string texto)
         {
-            
-            return View(repositorio.Buscar(id, texto));
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View(repositorio.Buscar(id, texto));
+            }
+            else
+            {
+                return View("Login/Index");
+            }
+
         }
 
         //VISTA AGREGAR PLANTA
         public ActionResult AgregarPlanta()
         {
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View(repositorioTipo.Get());
+            }
+            else
+            {
+                return View("Login/Index");
+            }
 
             //---------------------//
-            return View(repositorioTipo.Get());
         }
 
         [HttpPost]
         //public ActionResult PlantaAgregada(string cientifico, string vulgares, string tipoPlanta, string ambient, double altura, double precio, string descripcion)
         public ActionResult PlantaAgregada(string cientifico, string vulgares, TipoPlanta tipoPlanta, string ambient, double altura, double precio, string descripcion)
         {
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                Planta miPlanta = new Planta(tipoPlanta, cientifico, vulgares, descripcion, ambient, altura, precio);
+                repositorio.Insert(miPlanta);
+                //{ 
+                return Json(new { nuevaPlanta = true });
+                //} else {
+                //    return Json(new { nuevaPlanta = false });
+                //}
+            }
+            else
+            {
+                return View("Login/Index");
+            }
 
-            Planta miPlanta = new Planta(tipoPlanta,cientifico, vulgares, descripcion,ambient, altura, precio);
-            repositorio.Insert(miPlanta);
-            //{ 
-            return Json(new { nuevaPlanta = true });
-            //} else {
-            //    return Json(new { nuevaPlanta = false });
-            //}
+
+           
         }
 
 
         public ActionResult AgregarFicha(int id)
         {
-            return View();
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View();
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
 
         // GET: ClientController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View();
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
 
         // GET: ClientController/Create
         public ActionResult Create()
         {
-            return View();
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View();
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
 
         // POST: ClientController/Create
@@ -82,20 +135,37 @@ namespace Obligatorio.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
-            try
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
             {
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                catch
+                {
+                    return View();
+                }
             }
-            catch
+            else
             {
-                return View();
+                return View("Login/Index");
             }
+            
         }
 
         // GET: ClientController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View();
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
 
         // POST: ClientController/Edit/5
@@ -103,20 +173,38 @@ namespace Obligatorio.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
         {
-            try
+
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
             {
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                catch
+                {
+                    return View();
+                }
             }
-            catch
+            else
             {
-                return View();
+                return View("Login/Index");
             }
+
         }
 
         // GET: ClientController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View();
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
 
         // POST: ClientController/Delete/5
@@ -124,13 +212,21 @@ namespace Obligatorio.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
         {
-            try
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
             {
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                catch
+                {
+                    return View();
+                }
             }
-            catch
+            else
             {
-                return View();
+                return View("Login/Index");
             }
         }
     }

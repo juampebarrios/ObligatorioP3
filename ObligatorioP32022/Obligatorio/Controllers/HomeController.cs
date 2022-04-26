@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Dominio;
+using Microsoft.AspNetCore.Http;
 
 namespace Obligatorio.Controllers
 {
@@ -22,12 +23,28 @@ namespace Obligatorio.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View();
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
 
         public IActionResult Privacy()
         {
-            return View();
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View();
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

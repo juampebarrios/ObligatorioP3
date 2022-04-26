@@ -24,11 +24,23 @@ namespace Obligatorio
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddMvc();
+            // AÑADIR LOS SERVICIOS DE SESIÓN.
+            services.AddDistributedMemoryCache();
+            services.AddSession(options => {
+                options.IdleTimeout = TimeSpan.FromMinutes(20); // Tiempo de expiración   
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseStaticFiles();
+
+            // AÑADIR LA SESIÓN.
+            // DEBE IR SIEMPRE ANTES DE app.UseMvc
+            app.UseSession();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

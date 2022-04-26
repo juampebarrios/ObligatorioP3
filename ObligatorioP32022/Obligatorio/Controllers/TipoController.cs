@@ -20,69 +20,118 @@ namespace Obligatorio.Controllers
         // GET: /<controller>/
         public IActionResult AgregarTipo()
         {
-            return View();
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View();
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
 
         public ActionResult ListaTipos()
         {
-            return View(repositorio.Get());
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View(repositorio.Get());
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
 
         [HttpPost]
         public ActionResult EliminarTipo(int id)
         {
-            bool seElimino = false;
-            TipoPlanta miTipo = new TipoPlanta();
-            miTipo = repositorio.getByID(id);
-
-            // IEnumerable<Planta> misPlantas = (IEnumerable<Planta>)repositorioP.Buscar(2, miTipo.NombreUnico);
-
-
-            if (miTipo == null/* || misPlantas == null*/)
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
             {
+                bool seElimino = false;
+                TipoPlanta miTipo = new TipoPlanta();
+                miTipo = repositorio.getByID(id);
 
+                // IEnumerable<Planta> misPlantas = (IEnumerable<Planta>)repositorioP.Buscar(2, miTipo.NombreUnico);
+
+
+                if (miTipo == null/* || misPlantas == null*/)
+                {
+
+                }
+                else
+                {
+                    seElimino = repositorio.Delete(miTipo.id);
+                }
+                if (seElimino)
+                {
+                    return Json(new { seElimino = true });
+                }
+                else
+                { }
+
+                return View("~/ListaTipos");
             }
             else
             {
-                seElimino = repositorio.Delete(miTipo.id);
+                return View("Login/Index");
             }
-            if (seElimino)
-            {
-                return Json(new { seElimino = true });
-            }
-            else
-            { }
-
-            return View("~/ListaTipos");
 
         }
 
         [HttpPost]
         public ActionResult TipoAgrega(string nombre, string texto)
         {
-            TipoPlanta miTIpo = new TipoPlanta();
-            miTIpo.NombreUnico = nombre;
-            miTIpo.DescripcionTipo = texto;
+            string nombre1 = HttpContext.Session.GetString("usuario");
+            if (nombre1 != null)
+            {
+                TipoPlanta miTIpo = new TipoPlanta();
+                miTIpo.NombreUnico = nombre;
+                miTIpo.DescripcionTipo = texto;
 
-            repositorio.Insert(miTIpo);
-            return View("AgregarTipo");
+                repositorio.Insert(miTIpo);
+                return View("AgregarTipo");
+            }
+            else
+            {
+                return View("Login/Index");
+            }
+
         }
 
 
         public ActionResult EditarTipo(int id)
         {
-            TipoPlanta miTipo = repositorio.getByID(id);
-            ViewBag.miTipo = repositorio.Get();
-            return View(miTipo);
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                TipoPlanta miTipo = repositorio.getByID(id);
+                ViewBag.miTipo = repositorio.Get();
+                return View(miTipo);
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
 
         /*EditarTipo*/
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult EditarTipo(TipoPlanta miTipo) 
+        public ActionResult EditarTipo(TipoPlanta miTipo)
         {
-            repositorio.Update(miTipo);
-            return View();
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                repositorio.Update(miTipo);
+                return View();
+            }
+            else
+            {
+                return View("Login/Index");
+            }
         }
     }
 }

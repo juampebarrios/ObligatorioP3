@@ -18,23 +18,45 @@ namespace Obligatorio.Controllers
 
         public IActionResult FichaAgregar()
         {
-            return View(repositorio.Get());
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+                return View(repositorio.Get());
+            }
+            else
+            {
+                return View("Index");
+            }
         }
 
 
         [HttpPost]
         public ActionResult AgregarFicha(string tipoi, string fr, int temp, int planta) 
         {
-            Planta miPlanta = repositorio.getByID(planta);
 
-            FichaCuidado miFicha = new FichaCuidado();
-            miFicha.miPlanta = miPlanta;
-            miFicha.Temperatura = temp;
-            miFicha.TipoIluminacion = tipoi;
-            miFicha.FrecuenciaRiego = fr;
-            repositorioFicha.Insert(miFicha);
 
-            return RedirectToAction("FichaAgregar");
+
+            string nombre = HttpContext.Session.GetString("usuario");
+            if (nombre != null)
+            {
+
+
+                Planta miPlanta = repositorio.getByID(planta);
+
+                FichaCuidado miFicha = new FichaCuidado();
+                miFicha.miPlanta = miPlanta;
+                miFicha.Temperatura = temp;
+                miFicha.TipoIluminacion = tipoi;
+                miFicha.FrecuenciaRiego = fr;
+                repositorioFicha.Insert(miFicha);
+
+                return RedirectToAction("FichaAgregar");
+            }
+            else
+            {
+                return View("Login/Index");
+            }
+
         }
     }
 }

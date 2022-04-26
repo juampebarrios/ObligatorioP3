@@ -23,7 +23,7 @@ namespace Obligatorio.Controllers
 
         public IActionResult Login()
         {
-            return View();
+            return View("Index");
         }
         [HttpPost]
         public ActionResult Login(string usu, string pass) 
@@ -33,8 +33,8 @@ namespace Obligatorio.Controllers
                 Usuario miUsu = repositorio.Login(usu, pass);
                 if (miUsu != null)
                 {
-                   // HttpContext.Session.SetString("usuario", usu);
-                    return View("~/Home/Index");
+                    HttpContext.Session.SetString("usuario", usu);
+                    return View("Index");
                 }
                 else
                 {
@@ -46,15 +46,12 @@ namespace Obligatorio.Controllers
             {
                 return View();
             }
+        }
 
-
-
-
-            /*
-            HttpContext.Session.SetString("usuario", usu);
-            HttpContext.Session.SetString("password", pass);*/
-            // return View("~/Home/Index");
-
+        public ActionResult LogOut()
+        {
+            HttpContext.Session.Clear();
+            return View("Index");
         }
     }
 }

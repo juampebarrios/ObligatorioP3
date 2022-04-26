@@ -57,7 +57,7 @@ namespace Repositorio
                     miUsu = new Usuario();
                     miUsu.IdUsuario = (int)reader["id"];
                     miUsu.Email = (string)reader["usuario"];
-                    miUsu.Password = (string)reader["password"];
+                    miUsu.Password = (string)reader["pass"];
                 }
             }
             catch (Exception e)
