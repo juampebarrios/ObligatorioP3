@@ -20,30 +20,22 @@ namespace Repositorio
         }
         public void Delete(int id)
         {
-            SqlCommand oComando = new SqlCommand("spBajaTipo");
-            oComando.Connection = (SqlConnection)_con;
-            oComando.CommandType = CommandType.StoredProcedure;
+            bool success = false;
 
-            SqlParameter _nombre = new SqlParameter("@id", id);
-            SqlParameter _Retorno = new SqlParameter("@Retorno", SqlDbType.Int);
-            _Retorno.Direction = ParameterDirection.ReturnValue;
+            IDbCommand command = _con.CreateCommand();
+            command.CommandText = @"delete from TipoPlanta where id = @id";
+            command.Parameters.Add(new SqlParameter("@id", id));
 
-            int oAfectados = -1;
 
-            oComando.Parameters.Add(_nombre);
-            oComando.Parameters.Add(_Retorno);
             try
             {
                 _con.Open();
-                oComando.ExecuteNonQuery();
-                oAfectados = (int)oComando.Parameters["@Retorno"].Value;
-                if (oAfectados == -1)
-                    throw new Exception("No se pudo eliminar");
-            }
-            catch (Exception e)
-            {
+                command.ExecuteNonQuery();
 
-                Console.WriteLine(string.Format("Error: {0}", e.Message));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(string.Format("Error: {0}", ex.Message));
             }
             finally
             {
@@ -101,7 +93,39 @@ namespace Repositorio
 
         public TipoPlanta getByID(int pd)
         {
-            throw new NotImplementedException();
+            TipoPlanta miTipo = null;
+            IDbCommand command = _con.CreateCommand();
+
+            command.CommandText = @"select * from TipoPlanta where id like @id";
+            command.Parameters.Add(new SqlParameter("@id", pd));
+            try
+            {
+                _con.Open();
+
+
+                using IDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    miTipo = new TipoPlanta();
+                    miTipo.id = (int)reader["id"];
+                    miTipo.NombreUnico = (string)reader["nombre"];
+                    miTipo.DescripcionTipo = (string)reader["descripcion"];
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(string.Format("Error: {0}", e.Message));
+            }
+            finally
+            {
+                if (_con != null)
+                {
+                    _con.Close();
+                    _con.Dispose();
+                }
+            }
+            return miTipo;
         }
 
         public bool Insert(TipoPlanta obj)

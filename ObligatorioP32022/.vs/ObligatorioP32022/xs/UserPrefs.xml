@@ -1,10 +1,13 @@
 ﻿<Properties StartupConfiguration="{86D160BD-B2B0-4EF4-AAE8-2EF6D7290587}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio/Views/Tipo/AgregarTipo.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repositorio/RepositorioPlanta.cs">
     <Files>
-      <File FileName="Obligatorio/Views/Planta/AgregarPlanta.cshtml" Line="61" Column="27" />
-      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="28" Column="43" NotebookId="1" />
-      <File FileName="Repositorio/RepositorioPlanta.cs" NotebookId="1" />
-      <File FileName="Obligatorio/Views/Tipo/AgregarTipo.cshtml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Obligatorio/Views/Tipo/ListaTipos.cshtml" Line="33" Column="18" />
+      <File FileName="Repositorio/Conexion.cs" Line="16" Column="1" />
+      <File FileName="Repositorio/RepositorioPlanta.cs" Line="244" Column="72" />
+      <File FileName="Obligatorio/Controllers/TipoController.cs" Line="40" Column="25" NotebookId="1" />
+      <File FileName="Repositorio/RepositorioTipo.cs" Line="37" Column="14" NotebookId="1" />
+      <File FileName="Obligatorio/Controllers/PlantaController.cs" Line="45" Column="1" NotebookId="1" />
+      <File FileName="Obligatorio/Program.cs" Line="14" Column="33" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,13 +19,12 @@
               <Node name="Views" expanded="True">
                 <Node name="Planta" expanded="True" />
                 <Node name="Shared" expanded="True" />
-                <Node name="Tipo" expanded="True">
-                  <Node name="AgregarTipo.cshtml" selected="True" />
-                </Node>
+                <Node name="Tipo" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
             </Node>
-            <Node name="Repositorio" expanded="True" />
+            <Node name="Repositorio" expanded="True">
+              <Node name="RepositorioPlanta.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -32,7 +34,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Obligatorio PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Repositorio/RepositorioTipo.cs" relfile="Repositorio/RepositorioTipo.cs" line="95" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

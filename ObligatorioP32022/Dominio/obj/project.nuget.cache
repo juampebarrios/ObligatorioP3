@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uqao3N1eBkRK+67FANVfXG5yYX5dtZy2vT8KGoK6k5p+GZx6I7ep3N7/Y87D+JX3jqs5pudBrrgG843KmWe8IQ==",
+  "dgSpecHash": "SBOBC211QdbJHf1jyBKCGyabRQm6l59tdHRFxWo4nG9OEiwaCU8RgiuFOApsY7B0h7YXy9yln1mmy1opmB6IdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\renzo\\Desktop\\Obligatorio P3 2022\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj",
+  "projectFilePath": "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Dominio/Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\renzo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.16\\microsoft.aspnetcore.http.features.5.0.16.nupkg.sha512",
-    "C:\\Users\\renzo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
-    "C:\\Users\\renzo\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
-    "C:\\Users\\renzo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "/Users/juampebarrios/.nuget/packages/microsoft.aspnetcore.http.features/5.0.16/microsoft.aspnetcore.http.features.5.0.16.nupkg.sha512",
+    "/Users/juampebarrios/.nuget/packages/microsoft.extensions.primitives/5.0.1/microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "/Users/juampebarrios/.nuget/packages/system.io.pipelines/5.0.2/system.io.pipelines.5.0.2.nupkg.sha512",
+    "/Users/juampebarrios/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
