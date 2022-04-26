@@ -27,7 +27,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
         }
 
@@ -40,7 +41,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
         }
 
@@ -54,10 +56,10 @@ namespace Obligatorio.Controllers
                 TipoPlanta miTipo = new TipoPlanta();
                 miTipo = repositorio.getByID(id);
 
-                // IEnumerable<Planta> misPlantas = (IEnumerable<Planta>)repositorioP.Buscar(2, miTipo.NombreUnico);
+                 //IEnumerable<Planta> misPlantas = (IEnumerable<Planta>)repositorioP.Buscar(2, miTipo.NombreUnico);
 
 
-                if (miTipo == null/* || misPlantas == null*/)
+                if (miTipo == null /*|| misPlantas == null*/)
                 {
 
                 }
@@ -76,7 +78,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
 
         }
@@ -96,7 +99,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
 
         }
@@ -113,7 +117,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
         }
 
@@ -126,11 +131,12 @@ namespace Obligatorio.Controllers
             if (nombre != null)
             {
                 repositorio.Update(miTipo);
-                return View();
+                return RedirectToAction("ListaTipos");
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
         }
     }

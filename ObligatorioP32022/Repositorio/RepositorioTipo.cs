@@ -27,7 +27,7 @@ namespace Repositorio
             bool success = false;
 
             IDbCommand command1 = _con.CreateCommand();
-            command1.CommandText = @"delete from TipoPlanta where id =@id";
+            command1.CommandText = @"exec spEliminarTipo @id";
 
             command1.Parameters.Add(new SqlParameter("@id", id));
             //command.CommandText = @"exec spEliminarTipo idTipo = @id";
@@ -37,7 +37,7 @@ namespace Repositorio
             {
                 _con.Open();
                 int afectado = command1.ExecuteNonQuery();
-                if (afectado == 0)
+                if (afectado == -1)
                 {
                     throw new Exception("No se borro");
                 }
@@ -172,9 +172,8 @@ namespace Repositorio
         public void Update(TipoPlanta obj)
         {
             IDbCommand command = _con.CreateCommand();
-            command.CommandText = @"UPDATE TipoPlanta SET descripcion = @descripcion WHERE id = @Id";
-            command.Parameters.Add(new SqlParameter("@Id", obj.id));
-            command.Parameters.Add(new SqlParameter("@NameClientType", obj.NombreUnico));
+            command.CommandText = @"UPDATE TipoPlanta SET descripcion = @descripcion WHERE id = @id";
+            command.Parameters.Add(new SqlParameter("@id", obj.id));
             command.Parameters.Add(new SqlParameter("@descripcion", obj.DescripcionTipo));
 
             try

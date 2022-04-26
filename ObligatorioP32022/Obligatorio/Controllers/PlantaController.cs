@@ -28,7 +28,7 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
             }
 
         }
@@ -43,7 +43,10 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+
+                return View("~/Views/Login/Index.cshtml");
+
+
             }
 
         }
@@ -58,7 +61,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
 
             //---------------------//
@@ -81,11 +85,12 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
 
 
-           
+
         }
 
 
@@ -98,7 +103,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
         }
 
@@ -112,7 +118,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
         }
 
@@ -126,7 +133,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
         }
 
@@ -149,9 +157,10 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
-            
+
         }
 
         // GET: ClientController/Edit/5
@@ -164,7 +173,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
         }
 
@@ -188,7 +198,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
 
         }
@@ -203,7 +214,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
         }
 
@@ -226,7 +238,8 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
+
             }
         }
     }

@@ -23,8 +23,9 @@ namespace Obligatorio.Controllers
 
         public IActionResult Login()
         {
-            return View("Index");
+            return View("~/Views/Home/Index.cshtml");
         }
+
         [HttpPost]
         public ActionResult Login(string usu, string pass) 
         {
@@ -34,7 +35,7 @@ namespace Obligatorio.Controllers
                 if (miUsu != null)
                 {
                     HttpContext.Session.SetString("usuario", usu);
-                    return View("Index");
+                    return View("~/Views/Home/Index.cshtml");
                 }
                 else
                 {
@@ -51,7 +52,7 @@ namespace Obligatorio.Controllers
         public ActionResult LogOut()
         {
             HttpContext.Session.Clear();
-            return View("Index");
+            return View("~/Views/Login/Index.cshtml");
         }
     }
 }

@@ -395,3 +395,4 @@ select * from TipoPlanta
 delete from Plantas where tipo = 2
 delete from TipoPlanta where id = 3
 
+INSERT INTO Usuario VALUES ('test@test.com', '123')

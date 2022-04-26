@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "3fe6TTb0VGCzNJjEaXY8nrPgnV3ywlmWsOllBxeh4Kf6H0cq115LCZmVqgmvVTfvCf2qWlWZXm3Qr/3FdlXiug==",
+  "dgSpecHash": "vWhIJrGpwWz5pyHnIWpJfIMuacG2gwfjCUHK5nuGx+DBtovDQNh9os5Mt9vM22oyuHDt6i3LoSWqNHsjlRH+Xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\renzo\\Desktop\\Obligatorio P3 2022\\ObligatorioP3\\ObligatorioP32022\\Dominio\\Dominio.csproj",
+  "projectFilePath": "/Users/juampebarrios/Documents/GitHub/ObligatorioP3/ObligatorioP32022/Dominio/Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\renzo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\renzo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.16\\microsoft.aspnetcore.http.features.5.0.16.nupkg.sha512",
-    "C:\\Users\\renzo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
-    "C:\\Users\\renzo\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
-    "C:\\Users\\renzo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "C:\\Users\\renzo\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+    "/Users/juampebarrios/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/juampebarrios/.nuget/packages/microsoft.aspnetcore.http.features/5.0.16/microsoft.aspnetcore.http.features.5.0.16.nupkg.sha512",
+    "/Users/juampebarrios/.nuget/packages/microsoft.extensions.primitives/5.0.1/microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "/Users/juampebarrios/.nuget/packages/system.io.pipelines/5.0.2/system.io.pipelines.5.0.2.nupkg.sha512",
+    "/Users/juampebarrios/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/juampebarrios/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

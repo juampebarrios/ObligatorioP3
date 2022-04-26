@@ -25,7 +25,7 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Index");
+                return View("~/Views/Login/Index.cshtml");
             }
         }
 
@@ -54,7 +54,7 @@ namespace Obligatorio.Controllers
             }
             else
             {
-                return View("Login/Index");
+                return View("~/Views/Login/Index.cshtml");
             }
 
         }
